@@ -8,9 +8,23 @@ import "./Token.sol";
 contract Exchange {
     address public feeAccount;
     uint256 public feePercent;
+    uint256 public orderCount;
     //balance
     //token address           user address  tokens
     mapping(address => mapping(address => uint256)) public tokens;
+    // mapping id/order
+    mapping(uint256 => _Order) public orders;
+    // Modeling an order
+    struct _Order {
+        // Attributes of an order 
+        uint256 id; //unique id for order
+        address user; // User who made order
+        address tokenGet; // Address of the token they receive
+        uint256 amountGet; // Amount they receive
+        address tokenGive; // Address of token they give
+        uint256 amountGive; // Amount they give
+        uint256 timeStamp;
+    }
 
     event Deposit(address token, address user, uint256 amount, uint256 balance);
     event Withdraw(
@@ -18,6 +32,15 @@ contract Exchange {
         address user,
         uint256 amount,
         uint256 balance
+    );
+    event Order(
+        uint256 id,
+        address user,
+        address tokenGet,
+        uint256 amountGet,
+        address tokenGive,
+        uint256 amountGive,
+        uint256 timestamp
     );
 
     constructor(
@@ -65,5 +88,43 @@ contract Exchange {
     ) public view returns (uint256)
     {
         return tokens[_token][_user];
+    }
+
+    // -------------------
+    // MAKE & CANCEL ORDER
+
+    // Token give (the token they want to spend) - which token and how much ?
+    // Token Get (the token they want to receive) - which token and how much ?
+    function makeOrder(
+        address _tokenGet,
+        uint256 _amountGet,
+        address _tokenGive,
+        uint256 _amountGive
+    ) public {
+        // Prevent orders if tokens aren't on exchange
+        require(balanceOf(_tokenGive, msg.sender) >= _amountGive, "Not enough balance on exchange");
+
+        // Instantiate a new order
+        orderCount = orderCount + 1;
+        orders[orderCount] = _Order (
+            orderCount, //id
+            msg.sender, //user
+            _tokenGet, // tokenGet
+            _amountGet, // amountGet
+            _tokenGive,
+            _amountGive,
+            block.timestamp //timestamp in seconds from epoch 1970
+        );
+
+        // Emit event
+        emit Order(
+            orderCount,
+            msg.sender,
+            _tokenGet,
+            _amountGet,
+            _tokenGive,
+            _amountGive,
+            block.timestamp
+        );
     }
 }
