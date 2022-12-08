@@ -55,6 +55,7 @@ export const loadExchange = async (provider, address, dispatch) => {
 
 export const subscribeToEvents = (exchange, dispatch) => {
   exchange.on("Deposit", (token, user, amount, balance, event) => {
+    console.log("fires ", token, user, amount, balance, event);
     dispatch({ type: "TRANSFER_SUCCESS", event });
   });
 };
