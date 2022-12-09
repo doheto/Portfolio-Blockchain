@@ -11,12 +11,14 @@ import {
   loadAllOrders,
   subscribeToEvents
 } from "../store/interactions";
-import Navbar from "./Navbar.js";
-import Markets from "./Markets.js";
-import Balance from "./Balance.js";
-import Order from "./Order.js";
+
+import Navbar from "./Navbar";
+import Markets from "./Markets";
+import Balance from "./Balance";
+import Order from "./Order";
+import PriceChart from "./PriceChart";
+import Trades from "./Trades";
 import OrderBook from "./OrderBook";
-import PriceChart from "./PriceChart.js";
 
 function App() {
   const dispatch = useDispatch();
@@ -64,12 +66,11 @@ function App() {
 
   return (
     <div>
-      {/* Navbar */}
       <Navbar />
 
       <main className="exchange grid">
         <section className="exchange__section--left grid">
-          <Markets></Markets>
+          <Markets />
 
           <Balance />
 
@@ -80,7 +81,7 @@ function App() {
 
           {/* Transactions */}
 
-          {/* Trades */}
+          <Trades />
 
           <OrderBook />
         </section>
