@@ -22,6 +22,9 @@ const Balance = () => {
   const transferInProgress = useSelector(
     state => state.exchange.transferInProgress
   );
+  const transactionIsSuccessful = useSelector(
+    state => state.exchange.transaction.isSuccessful
+  );
 
   const tokens = useSelector(state => state.tokens.contracts);
   const symbols = useSelector(state => state.tokens.symbols);
@@ -106,7 +109,14 @@ const Balance = () => {
     if (exchange && tokens[0] && tokens[1] && account) {
       loadBalances(exchange, tokens, account, dispatch);
     }
-  }, [exchange, tokens, account, transferInProgress]);
+  }, [
+    exchange,
+    tokens,
+    account,
+    transferInProgress,
+    dispatch,
+    transactionIsSuccessful
+  ]);
 
   return (
     <div className="component exchange__transfers">
