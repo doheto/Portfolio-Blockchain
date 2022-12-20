@@ -1,0 +1,17 @@
+{
+  "layers": [
+    "Backgrounds",
+    "Face",
+    "Hats and Hair",
+    "Eyes and Glasses",
+    "Nose",
+    "Mouth"
+  ],
+  "image_description": "Open Punks",
+  "image_count": 500,
+  "image_details": {
+    "width": 512,
+    "height": 512
+  },
+  "image_location": "ipfs://QmVvRs4auuoJGpUhzuky39jMwSA2U2okMqzALp4QSqyKaw"
+}
