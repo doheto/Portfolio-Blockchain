@@ -1,0 +1,23 @@
+{
+  "dna": "a062b1fc10b56f761bd96f7c71f5a3b5c6f09fce",
+  "name": "#129",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://NewUriToReplace/129.png",
+  "edition": 129,
+  "date": 1634841122418,
+  "attributes": [
+    {
+      "trait_type": "background_green",
+      "value": "green"
+    },
+    {
+      "trait_type": "face",
+      "value": "tear"
+    },
+    {
+      "trait_type": "lady_hat",
+      "value": "lady_hat"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
