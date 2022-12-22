@@ -1,0 +1,19 @@
+{
+  "dna": "5a00ac395f7b86cf16b1ee986fc55d2a5d1cb256",
+  "name": "#21",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://NewUriToReplace/21.png",
+  "edition": 21,
+  "date": 1634841118029,
+  "attributes": [
+    {
+      "trait_type": "background_white",
+      "value": "white"
+    },
+    {
+      "trait_type": "face",
+      "value": "open_eye_smile"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
