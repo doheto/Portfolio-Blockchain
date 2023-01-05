@@ -28,12 +28,12 @@ interface StyledButtonProps {
 
 const StyledButton = styled.button<StyledButtonProps>`
   align-items: center;
-  background-color: ${(props) => props.theme.color.grey[200]};
+  background-color: ${props => props.theme.color.grey[200]};
   border: 0;
   border-radius: 28px;
-  box-shadow: 6px 6px 12px ${(props) => props.theme.color.grey[300]},
-    -12px -12px 24px ${(props) => props.theme.color.grey[100]}aa;
-  color: ${(props) =>
+  box-shadow: 6px 6px 12px ${props => props.theme.color.grey[300]},
+    -12px -12px 24px ${props => props.theme.color.grey[100]}aa;
+  color: ${props =>
     !props.disabled
       ? props.theme.color.primary.main
       : props.theme.color.grey[400]};
@@ -46,11 +46,11 @@ const StyledButton = styled.button<StyledButtonProps>`
   outline: none;
   padding: 0;
   margin: 0;
-  pointer-events: ${(props) => (!props.disabled ? undefined : 'none')};
+  pointer-events: ${props => (!props.disabled ? undefined : 'none')};
   text-transform: uppercase;
   width: 56px;
   &:hover {
-    background-color: ${(props) => props.theme.color.grey[100]};
+    background-color: ${props => props.theme.color.grey[100]};
   }
 `
 
@@ -61,8 +61,8 @@ const StyledLink = styled(Link)`
   flex: 1;
   height: 56px;
   justify-content: center;
-  margin: 0 ${(props) => -props.theme.spacing[4]}px;
-  padding: 0 ${(props) => props.theme.spacing[4]}px;
+  margin: 0 ${props => -props.theme.spacing[4]}px;
+  padding: 0 ${props => props.theme.spacing[4]}px;
   text-decoration: none;
 `
 

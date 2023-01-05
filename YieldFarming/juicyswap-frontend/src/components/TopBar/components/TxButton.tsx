@@ -25,7 +25,7 @@ const TxButton: React.FC<TxButtonProps> = () => {
 }
 
 const StyledTxButton = styled.div`
-  margin-right: ${(props) => props.theme.spacing[4]}px;
+  margin-right: ${props => props.theme.spacing[4]}px;
 `
 
 export default TxButton

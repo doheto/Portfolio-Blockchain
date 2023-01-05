@@ -6,9 +6,7 @@ interface ModalTitleProps {
 }
 
 const ModalTitle: React.FC<ModalTitleProps> = ({ text }) => (
-  <StyledModalTitle>
-    {text}
-  </StyledModalTitle>
+  <StyledModalTitle>{text}</StyledModalTitle>
 )
 
 const StyledModalTitle = styled.div`

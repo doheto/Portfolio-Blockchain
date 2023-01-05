@@ -8,7 +8,7 @@ import AccountModal from './AccountModal'
 
 interface AccountButtonProps {}
 
-const AccountButton: React.FC<AccountButtonProps> = (props) => {
+const AccountButton: React.FC<AccountButtonProps> = props => {
   const [onPresentAccountModal] = useModal(<AccountModal />)
   const [onPresentWalletProviderModal] = useModal(
     <WalletProviderModal />,

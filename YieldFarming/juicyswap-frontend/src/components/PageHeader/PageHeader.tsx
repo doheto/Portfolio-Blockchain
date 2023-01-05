@@ -26,8 +26,8 @@ const StyledPageHeader = styled.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding-bottom: ${(props) => props.theme.spacing[6]}px;
-  padding-top: ${(props) => props.theme.spacing[6]}px;
+  padding-bottom: ${props => props.theme.spacing[6]}px;
+  padding-top: ${props => props.theme.spacing[6]}px;
   margin: 0 auto;
 `
 
@@ -41,7 +41,7 @@ const StyledIcon = styled.div`
 
 const StyledTitle = styled.h1`
   font-family: 'Kaushan Script', sans-serif;
-  color: ${(props) => props.theme.color.grey[600]};
+  color: ${props => props.theme.color.grey[600]};
   font-size: 36px;
   text-align: center;
   font-weight: 700;
@@ -50,7 +50,7 @@ const StyledTitle = styled.h1`
 `
 
 const StyledSubtitle = styled.h3`
-  color: ${(props) => props.theme.color.grey[400]};
+  color: ${props => props.theme.color.grey[400]};
   font-size: 18px;
   font-weight: 400;
   margin: 0;

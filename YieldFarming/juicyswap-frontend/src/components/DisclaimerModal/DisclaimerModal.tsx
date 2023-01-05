@@ -13,11 +13,11 @@ interface DisclaimerModal extends ModalProps {
 }
 
 const StyledLink = styled.a`
-  color: ${(props) => props.theme.color.grey[400]};
+  color: ${props => props.theme.color.grey[400]};
   padding-left: 25%;
   text-decoration: none;
   &:hover {
-    color: ${(props) => props.theme.color.grey[500]};
+    color: ${props => props.theme.color.grey[500]};
   }
 `
 
@@ -36,15 +36,20 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
     if (step === 'disclaimer') {
       return (
         <div>
-          <p> With great pleasure we would like to invite you the launch
-              of Omakase Bar!
+          <p>
+            {' '}
+            With great pleasure we would like to invite you the launch of
+            Omakase Bar!
           </p>
-          <p> Omakase Bar will be the home of our new frontend, and provides
-              an interface for all interactions with the SushiSwap protocol.
+          <p>
+            {' '}
+            Omakase Bar will be the home of our new frontend, and provides an
+            interface for all interactions with the SushiSwap protocol.
           </p>
-          <p> Development will be on going, and sushiswapclassic will still
-              exist in the interim as we work to get Omakase Bar completely
-              polished.
+          <p>
+            {' '}
+            Development will be on going, and sushiswapclassic will still exist
+            in the interim as we work to get Omakase Bar completely polished.
           </p>
         </div>
       )

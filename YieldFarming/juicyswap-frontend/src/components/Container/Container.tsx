@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 
 interface ContainerProps {
-  children?: React.ReactNode,
+  children?: React.ReactNode
   size?: 'sm' | 'md' | 'lg'
 }
 
@@ -14,17 +14,13 @@ const Container: React.FC<ContainerProps> = ({ children, size = 'md' }) => {
       width = siteWidth / 2
       break
     case 'md':
-      width = siteWidth * 2 / 3
+      width = (siteWidth * 2) / 3
       break
     case 'lg':
     default:
       width = siteWidth
   }
-  return (
-    <StyledContainer width={width}>
-      {children}
-    </StyledContainer>
-  )
+  return <StyledContainer width={width}>{children}</StyledContainer>
 }
 
 interface StyledContainerProps {

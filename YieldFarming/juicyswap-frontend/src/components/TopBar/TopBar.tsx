@@ -14,7 +14,18 @@ interface TopBarProps {
 const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
   return (
     <StyledTopBar>
-      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>This is a tutorial project on Rinkeby test net. There is no JUICY token. Do not get scammed.</div>
+      <div
+        style={{
+          backgroundColor: 'black',
+          color: 'white',
+          textAlign: 'center',
+          padding: '3px',
+          marginBottom: '10px',
+        }}
+      >
+        This is a tutorial project on Rinkeby test net. There is no JUICY token.
+        Do not get scammed.
+      </div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>
@@ -42,9 +53,9 @@ const StyledTopBar = styled.div``
 const StyledTopBarInner = styled.div`
   align-items: center;
   display: flex;
-  height: ${(props) => props.theme.topBarSize}px;
+  height: ${props => props.theme.topBarSize}px;
   justify-content: space-between;
-  max-width: ${(props) => props.theme.siteWidth}px;
+  max-width: ${props => props.theme.siteWidth}px;
   width: 100%;
 `
 const StyledNavWrapper = styled.div`
