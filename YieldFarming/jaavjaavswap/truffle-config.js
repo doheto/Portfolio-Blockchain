@@ -25,8 +25,8 @@ module.exports = {
     goerli: {
       provider: function() {
         return new HDWalletProvider(
-          [process.env.DEPLOYER_PRIVATE_KEY],
-          `wss://goerli.infura.io/ws/v3/${process.env.INFURA_API_KEY}` // URL to Ethereum Node
+          privateKeys.split(","),
+          `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}` // URL to Ethereum Node
         );
       },
       gasPrice: 60000000000, // 60 Gwei
