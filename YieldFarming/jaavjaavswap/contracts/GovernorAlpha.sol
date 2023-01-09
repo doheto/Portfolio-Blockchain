@@ -10,7 +10,7 @@
 // uint96s are changed to uint256s for simplicity and safety.
 
 // XXX: pragma solidity ^0.5.16;
-pragma solidity ^0.8.12;
+pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
 
 import "./SushiToken.sol";
