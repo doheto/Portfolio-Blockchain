@@ -53,7 +53,6 @@ export const addressMap = {
 //   }
 // }
 
-
 /*
 SLP Address on mainnet for reference
 ==========================================
@@ -452,39 +451,33 @@ SLP Address on mainnet for reference
 //  },
 // ]
 
+// JaavJaav SETTINGS
 
-
-
-
-// JUICYSWAP SETTINGS
-
-export const CHAIN_ID = 4
+export const CHAIN_ID = 5
 
 export const contractAddresses = {
   sushi: {
-    4: '0xecD246d5Dac3Cd49DfA0144Aea1439a4C4074B64',
+    5: '0x21599b54a9bCa88ee2FBb036054Fa309e51e4C82',
   },
   masterChef: {
-    4: '0x4533060563B89c986d8f838f503c6bD2C9F383E7',
+    5: '0x5a3F47F6C33d86c9df0eafC90600F96FaC3e77FE',
   },
   weth: {
-    4: '0xc778417e063141139fce010982780140aa0cd5ab',
+    5: '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
   },
   xSushi: {
-    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
-  }
+    5: '0x8798249c2e607446efb7ad49ec89dd1865ff4272', // NOTE: Not in use
+  },
 }
-
-
 
 export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x03e6c12ef405ac3f642b9184eded8e1322de1a9e', // LP Token Address
+      5: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // Token, i.e. "DAI"
+      5: '0x2899a03ffDab5C90BADc5920b4f53B0884EB13cC', // Token, i.e. "DAI"
     },
     name: 'Juice Party!',
     symbol: 'DAI-ETH LP',
@@ -492,5 +485,3 @@ export const supportedPools = [
     icon: '🍊',
   },
 ]
-
-

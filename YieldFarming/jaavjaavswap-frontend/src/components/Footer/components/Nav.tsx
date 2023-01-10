@@ -5,7 +5,7 @@ const Nav: React.FC = () => {
   return (
     <StyledNav>
       <StyledLink target="_blank" href="#">
-        JuiceMaster Contract
+        {/* JuiceMaster Contract */}
       </StyledLink>
       {/*<StyledLink
         target="_blank"
@@ -14,7 +14,7 @@ const Nav: React.FC = () => {
         SushiSwap SUSHI-ETH
       </StyledLink> */}
       <StyledLink target="_blank" href="#">
-        Discord
+        {/* Discord */}
       </StyledLink>
       <StyledLink target="_blank" href="#">
         Github
