@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={logo} height={120} />}
         title="Juice Master is Ready"
-        subtitle="Stake JuicySwap LP tokens to claim your very own yummy JUICY!"
+        subtitle="Stake JaavJaav LP tokens to claim your very own yummy JaavJaav!"
       />
 
       <Container>
@@ -22,8 +22,8 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: JUICY-ETH LP token pool yields 4.8x more token
-        rewards per block.
+        🏆<b>Pro Tip</b>: Jaav-ETH LP token pool yields 4.8x more token rewards
+        per block.
       </StyledInfo>
       <Spacer size="lg" />
       <div
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
 }
 
 const StyledInfo = styled.h3`
-  color: ${(props) => props.theme.color.grey[500]};
+  color: ${props => props.theme.color.grey[500]};
   font-size: 16px;
   font-weight: 400;
   margin: 0;
@@ -46,7 +46,7 @@ const StyledInfo = styled.h3`
   text-align: center;
 
   > b {
-    color: ${(props) => props.theme.color.grey[600]};
+    color: ${props => props.theme.color.grey[600]};
   }
 `
 

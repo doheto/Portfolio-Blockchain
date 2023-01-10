@@ -22,10 +22,7 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
           padding: '3px',
           marginBottom: '10px',
         }}
-      >
-        This is a tutorial project on Rinkeby test net. There is no JUICY token.
-        Do not get scammed.
-      </div>
+      ></div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>

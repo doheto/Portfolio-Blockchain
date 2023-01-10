@@ -26,12 +26,12 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
           <StyledCardHeader>
             <CardIcon>🍊</CardIcon>
             <Value value={getBalanceNumber(earnings)} />
-            <Label text="JUICY Earned" />
+            <Label text="JaavJaav Earned" />
           </StyledCardHeader>
           <StyledCardActions>
             <Button
               disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting JUICY' : 'Harvest'}
+              text={pendingTx ? 'Collecting JaavJaav' : 'Harvest'}
               onClick={async () => {
                 setPendingTx(true)
                 await onReward()
@@ -53,13 +53,13 @@ const StyledCardHeader = styled.div`
 const StyledCardActions = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: ${(props) => props.theme.spacing[6]}px;
+  margin-top: ${props => props.theme.spacing[6]}px;
   width: 100%;
 `
 
 const StyledSpacer = styled.div`
-  height: ${(props) => props.theme.spacing[4]}px;
-  width: ${(props) => props.theme.spacing[4]}px;
+  height: ${props => props.theme.spacing[4]}px;
+  width: ${props => props.theme.spacing[4]}px;
 `
 
 const StyledCardContentInner = styled.div`
