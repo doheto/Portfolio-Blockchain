@@ -1,6 +1,7 @@
 pragma solidity ^0.5.0;
 pragma experimental ABIEncoderV2;
 
+//this is a library from DyDx
 interface Structs {
     struct Val {
         uint256 value;
@@ -67,6 +68,7 @@ contract DyDxPool is Structs {
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP. Does not include
  * the optional functions; to access them see `ERC20Detailed`.
+ * it describes how erc20 works
  */
 interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
@@ -74,6 +76,9 @@ interface IERC20 {
     function approve(address spender, uint256 amount) external returns (bool);
 }
 
+/*
+the flashloan itself that stores the pool address and the weth address we are borrowing.
+ */
 contract DyDxFlashLoan is Structs {
     DyDxPool pool = DyDxPool(0x1E0447b19BB6EcFdAe1e4AE1694b0C3659614e4e);
 
@@ -152,9 +157,17 @@ contract DyDxFlashLoan is Structs {
     }
 }
 
+/**
+this is the mosty important part the smartcontract that inherits from dydx
+
+ */
 contract Flashloan is DyDxFlashLoan {
     uint256 public loan;
 
+    /*
+    it is payable u can send crypto to it.
+    it takes eth and convert to weth and send it to this smc
+    */
     constructor() public payable {
         (bool success, ) = WETH.call.value(msg.value)("");
         require(success, "fail to get weth");
@@ -166,6 +179,10 @@ contract Flashloan is DyDxFlashLoan {
         flashloan(flashToken, flashAmount, data); // execution goes to `callFunction`
     }
 
+    /**
+    it is required it is a callback fuinction because it is called after the flashloan
+    specific name and specific function
+     */
     function callFunction(
         address, /* sender */
         Info calldata, /* accountInfo */
@@ -183,3 +200,10 @@ contract Flashloan is DyDxFlashLoan {
         // Use the money here!
     }
 }
+
+- strelle decouche, elle rentre tard.
+- strelle enceinte. des gens veulent parler. elle a enlevé l'enfant !
+- jp dit il n'est pas souvent là il ne parle pas il n'est pas proche de nous
+- lucie: ca va pas strelle me parle plus.
+- tu prends des mesures drastiques.
+- mae : deconnecter de la realité. l'organisation du mariage.
