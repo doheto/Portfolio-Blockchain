@@ -201,9 +201,3 @@ contract Flashloan is DyDxFlashLoan {
     }
 }
 
-- strelle decouche, elle rentre tard.
-- strelle enceinte. des gens veulent parler. elle a enlevé l'enfant !
-- jp dit il n'est pas souvent là il ne parle pas il n'est pas proche de nous
-- lucie: ca va pas strelle me parle plus.
-- tu prends des mesures drastiques.
-- mae : deconnecter de la realité. l'organisation du mariage.
