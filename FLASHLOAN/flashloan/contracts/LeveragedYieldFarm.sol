@@ -1,13 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
-
+// pulling here the interfaces contracts from the libraries
 import "@studydefi/money-legos/dydx/contracts/DydxFlashloanBase.sol";
 import "@studydefi/money-legos/compound/contracts/ICToken.sol";
 import "@studydefi/money-legos/dydx/contracts/ICallee.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 // NOTE: @studydefi doesn't contain clamComp();
+// The comptroller is the main controller interface tht regulates the lending and loaning system
+// for compounbd finance
 interface Comptroller {
     function enterMarkets(address[] calldata)
         external
@@ -63,6 +65,7 @@ contract LeveragedYieldFarm is ICallee, DydxFlashloanBase {
         owner = msg.sender;
 
         // Enter the cDai market so you can borrow another type of asset
+        // it is the token u get when depositing token in compound finance
         address[] memory cTokens = new address[](1);
         cTokens[0] = cDaiAddress;
         uint256[] memory errors = comptroller.enterMarkets(cTokens);
