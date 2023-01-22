@@ -8,7 +8,9 @@ interface IRandomizer {
 }
 
 contract SlotMachine {
+    //storing an instance of the IRandomizer interface
     IRandomizer random;
+    //the balances of the players
     mapping(address => uint256) public playerBalance;
 
 
@@ -20,6 +22,7 @@ contract SlotMachine {
 
     uint256 public minBetAmount = 0.0001 ether;
 
+    //this is called when u place bet
     function spin(uint256 _amount) public{
         require(_amount <= playerBalance[msg.sender], "Sorry, You have not sent enough funds to the contract to perform this operation");
         require(_amount >= minBetAmount, "You need to send at least 0.0001 ether to bet");
