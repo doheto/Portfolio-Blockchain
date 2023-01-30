@@ -2,14 +2,19 @@
 pragma solidity ^0.8.0;
 pragma abicoder v2;
 
+//for swapping
 import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
+//quoter estimates the price of each token
 import "@uniswap/v3-periphery/contracts/interfaces/IQuoter.sol";
 
+//ISwapRouter will refund the unused eth
 interface IUniSwapRouter is ISwapRouter {
     function refundETH() external payable;
 }
 
 contract Swap {
+    //immutable means it can only been set once
+    //usually in contructor
     IUniSwapRouter public immutable swapRouter;
     IQuoter public immutable quoter;
 
@@ -24,6 +29,7 @@ contract Swap {
         quoter = IQuoter(0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6);
     }
 
+    //tell the exct eth we need to provide to get the amount of DAI we specified
     function getETHforDAI(uint256 _daiAmount)
         external
         payable
@@ -43,6 +49,7 @@ contract Swap {
     // Used to accept swapRouter refund
     receive() external payable {}
 
+    //here u know u have 10 eth and u want dai
     function convertEthToExactDai(uint256 _daiAmountOut, uint256 _deadline)
         external
         payable
