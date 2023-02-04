@@ -1,0 +1,2557 @@
+    1  zsh --version
+    2  echo $SHELL
+    3  GIT --VERSION
+    4  pwd
+    5  ls -las
+    6  cd
+    7  ./ohcd $HOME
+    8  cd $HOME
+    9  nano ~/.zshrc
+   10  pwd
+   11  nano ~/.zshrc
+   12  cd $HOME
+   13  nano ~/.zshrc
+   14  nano ~/.zshrc
+   15  nano ~/.zshrc
+   16  cd
+   17  pwd
+   18  ls -las
+   19  cd .config
+   20  ls -las
+   21  cd iterm2
+   22  ls -las
+   23  cd ..
+   24  cd ..
+   25  sudo apt-get install fonts-powerline
+   26  git clone https://github.com/powerline/fonts.git --depth=1
+   27  cd fonts
+   28  ./install.sh
+   29  cd ..
+   30  rm -rf fonts
+   31  brew tap homebrew/cask-fonts
+   32  alias
+   33  sudo port install fzf
+   34  brew install fzf
+   35  $(brew --prefix)/opt/fzf/install
+   36  nano ~/.zshrc
+   37  .
+   38  ..
+   39  nano ~/.zshrc
+   40  nano ~/.zshrc
+   41  alias
+   42  alias src=/Users/GildasOswald/src
+   43  src
+   44  alias src=cd /Users/GildasOswald/src
+   45  src
+   46  src
+   47  pwd
+   48  exit
+   49  cd
+   50  ls -las
+   51  sr
+   52  src
+   53  cd src
+   54  l
+   55  pwd
+   56  exit
+   57  src
+   58  src
+   59  src
+   60  alias src="cd /Users/GildasOswald/src"
+   61  src
+   62  exit
+   63  src
+   64  alias src="cd /Users/GildasOswald/src"
+   65  alias src="cd /Users/GildasOswald/src"
+   66  alias src="cd /Users/GildasOswald/src"
+   67  src
+   68  src
+   69  src
+   70  cd src
+   71  git clone https://github.com/doheto/Portfolio.git
+   72  git clone https://github.com/doheto/Portfolio.git
+   73  ls
+   74  cd Portfolio
+   75  ls
+   76  exit
+   77  pwd
+   78  l
+   79  echo $ZSH_CUSTOM
+   80  cd $ZSH_CUSTOM
+   81  l
+   82  plugins
+   83  l
+   84  nano git-auto-status.plugin.zsh
+   85  ../..
+   86  GildasOswald
+   87  brew install fzf
+   88  $(brew --prefix)/opt/fzf/install
+   89  cd $ZSH_CUSTOM
+   90  plugins
+   91  l
+   92  nano dogesay.plugin.zsh
+   93  zsh --version
+   94  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   95  l
+   96  ls
+   97  ls -las
+   98  nano .zshrc.pre-oh-my-zsh
+   99  nano .zshrc
+  100  nano .zshrc
+  101  nano .zshrc
+  102  l
+  103  cd $HOME
+  104  cd $ZSH_CUSTOM
+  105  cd 1
+  106  ..
+  107  nano .zshrc.pre-oh-my-zsh
+  108  nano .zshrc
+  109  cd $ZSH_CUSTOM/themes
+  110  eche $ZSH_CUSTOM
+  111  echo $ZSH_CUSTOM
+  112  cd $ZSH_CUSTOM
+  113  pwd
+  114  nano .zshrc
+  115  cd $ZSH_CUSTOM
+  116  cd .oh-my-zsh
+  117  l
+  118  themes
+  119  l
+  120  nano agnosterzak.zsh-theme
+  121  git clone https://github.com/powerline/fonts.git --depth=1
+  122  cd fonts
+  123  ./install.sh
+  124  cd ..
+  125  rm -rf fonts
+  126  exit
+  127  pwd
+  128  l
+  129  src
+  130  l
+  131  Portfolio
+  132  git status
+  133  ../..
+  134  l
+  135  .oh-my-zsh
+  136  l
+  137  plugin
+  138  plugins
+  139  l
+  140  mkdir git-auto-status
+  141  cd git-auto-status
+  142  nano git-auto-status.plugin.zsh
+  143  ../..
+  144  l
+  145  exit
+  146  l
+  147  nano .zshrc
+  148  exi
+  149  exit
+  150  l
+  151  nano .zshrc
+  152  exit
+  153  src
+  154  Portfolio
+  155  git remote -v
+  156  git status
+  157  git add .
+  158  git status
+  159  git commit -m (feat) functionnal portfolio
+  160  git commit -m "(feat) functionnal portfolio"
+  161  git push -u origin
+  162  history
+  163  node -v
+  164  ls
+  165  cd Dow
+  166  cd Downloads
+  167  sudo chmod 400 phoenix.pem
+  168  ssh -i phoenix.pem ubuntu@15.188.84.58
+  169  cd Downloads
+  170  ssh -i phoenix.pem ubuntu@15.188.84.58
+  171  cd Downloads
+  172  ssh -i phoenix.pem ubuntu@15.188.84.58
+  173  ssh -i phoenix.pem ubuntu@13.37.170.184
+  174  history
+  175  ssh -i phoenix.pem ubuntu@13.37.170.184
+  176  ssh -i phoenix.pem ubuntu@1\n3.37.170.184
+  177  git pull 
+  178  gp
+  179  clear
+  180  npm start
+  181  gcb BX-001
+  182  npm start
+  183  cd
+  184  ls
+  185  cd src/Portfolio
+  186  git status
+  187  git add .
+  188  git commit -am "refactor(portfolio) projects right order"
+  189  git push -u origin
+  190  git push --set-upstream origin BX-001
+  191  gcb FX-001
+  192  git add . 
+  193  git commit -am "feature(portfolio) projects right descriotion and details"
+  194  git push --set-upstream origin FX-001
+  195  git switch master
+  196  git switch main
+  197  gco main
+  198  git pull 
+  199  ..
+  200  l
+  201  git clone git@github.com:doheto/Portfolio-Reactiv.git
+  202  l
+  203  history
+  204  git clone https://github.com/doheto/Portfolio-Reactiv.git
+  205  l
+  206  cd Portfolio-Reactiv
+  207  clear
+  208  l
+  209  node -v
+  210  pwd
+  211  l
+  212  npx create-react-app expenses-app
+  213  ..
+  214  l
+  215  Portfolio-Reactiv
+  216  gcb FX-001
+  217  clear
+  218  l
+  219  expenses-app
+  220  l
+  221  npm start
+  222  ../Portfolio-Reactiv
+  223  l
+  224  git status
+  225  git add .
+  226  git commit -m "(init) Expenses tracker initialisation"
+  227  history
+  228  git push --set-upstream origin FX-001
+  229  git status
+  230  git add . 
+  231  git commit --fixup HEAD
+  232  gp
+  233  git status
+  234  git add .
+  235  git commit --fixup HEAD
+  236  gp
+  237  git status
+  238  git add .
+  239  git commit --fixup HEAD
+  240  gp
+  241  clear
+  242  git rebase -i master
+  243  git status
+  244  git push --force
+  245  git status
+  246  git switch master
+  247  gco master
+  248  git pull
+  249  clear
+  250  gcb FX-002
+  251  git status
+  252  git add .
+  253  git commit -m "(feat) buttons and handler"
+  254  histiry
+  255  history
+  256  git push --set-upstream origin FX-002
+  257  gco master
+  258  git pull 
+  259  gcb FX-003
+  260  git status
+  261  git add .
+  262  git commit -m "(feat) New expense form"
+  263  git push --set-upstream origin FX-003
+  264  gco master
+  265  git pull
+  266  gcb FX-004
+  267  git status
+  268  git add .
+  269  git commit -m "(feat) adding state and filtering over year"
+  270  git push --set-upstream origin FX-004
+  271  gco master
+  272  git pull
+  273  gcb BX-001
+  274  git status
+  275  git commit -am "(fix) state and filtering over year"
+  276  git push --set-upstream origin BX-001
+  277  git status
+  278  gco master
+  279  git pull
+  280  gcb FX-005
+  281  git status
+  282  git add .
+  283  git commit -m "(feat) adding filtering per year"
+  284  git push --set-upstream origin FX-005
+  285  git status
+  286  git add .
+  287  git commit --fixup HEAD 
+  288  gp
+  289  git status
+  290  git add .
+  291  git commit -m "(feat) conditional multi Header"
+  292  gp
+  293  git status
+  294  git add .
+  295  git commit --fixup HEAD
+  296  gp
+  297  history
+  298  git rebase -i master
+  299  git status 
+  300  git push --force
+  301  gco master
+  302  git pull
+  303  gcb FX-006
+  304  git status
+  305  git add .
+  306  git commit -m "(feat) added charting per month"
+  307  git push --set-upstream origin FX-006
+  308  gco master
+  309  git pull
+  310  pwd
+  311  ..
+  312  l
+  313  gcb FX-006
+  314  git status
+  315  gcb FX-007
+  316  l
+  317  dynamicStyle-app
+  318  l
+  319  npm install
+  320  npm audit fix
+  321  l
+  322  git status
+  323  dynamicStyle-app
+  324  git status
+  325  l
+  326  ..
+  327  l
+  328  git status
+  329  git commit -am "(feat) dynamic style setup"
+  330  git add .
+  331  git commit -m "(feat) simple note"
+  332  git push --set-upstream origin FX-007
+  333  gco master
+  334  git pull
+  335  gcb FX-008
+  336  git status
+  337  l
+  338  ..
+  339  cd ..
+  340  l
+  341  noteList-app
+  342  l
+  343  npm start
+  344  git add .
+  345  git commit -m "(feat) dynamic styling"
+  346  git push --set-upstream origin FX-008
+  347  gco master
+  348  git pull
+  349  gcb FX-009
+  350  npm install --save styled-components
+  351  npm start
+  352  git status
+  353  git add .
+  354  git commit -m "(feat) props styling"
+  355  git push --set-upstream origin FX-009
+  356  gco master
+  357  git pull
+  358  gcb FX-010
+  359  git status
+  360  git add .
+  361  git commit -m "(feat) css modules"
+  362  git push --set-upstream origin FX-010
+  363  gco master
+  364  git pull
+  365  gcb FX-011
+  366  git status
+  367  git add .
+  368  git commit -m '(fdat) List of Users init'
+  369  git push --set-upstream origin FX-011
+  370  pwd
+  371  /Users/GildasOswald/src/Portfolio-Reactiv
+  372  l
+  373  user
+  374  userList-app
+  375  l
+  376  npm install
+  377  l
+  378  npm start
+  379  git status
+  380  ..
+  381  git status
+  382  l
+  383  Portfolio-Reactiv
+  384  l
+  385  /Users/GildasOswald/src/Portfolio-Reactiv
+  386  ..
+  387  l
+  388  Archive
+  389  l
+  390  git status
+  391  Mobeye-API
+  392  l
+  393  rm -rf .git
+  394  git status
+  395  ../Mobeye-Meteor
+  396  rm -rf .git
+  397  ../Mobeye-Deploy
+  398  rm -rf .git
+  399  ../MobeyeCertificates
+  400  rm -rf .git
+  401  ../MobeyeCrowdJarJar
+  402  rm -rf .git
+  403  git status
+  404  git add .
+  405  git status
+  406  git commit -m "feat: users management app"
+  407  git push --set-upstream origin FX-011
+  408  gco master
+  409  git pull
+  410  gcb FX-012
+  411  git status
+  412  git add .
+  413  git commit -m "fix : FX-011 "
+  414  git push --set-upstream origin FX-012
+  415  gco master
+  416  git pull
+  417  gcb FX-013
+  418  git status
+  419  git add .
+  420  git commit -m "feat : complete users management with modal"
+  421  git push --set-upstream origin FX-013
+  422  gco master
+  423  git pull
+  424  gcb FX-014
+  425  git status
+  426  git add
+  427  git add .
+  428  git commit -m "feat: jsx limitations"
+  429  git push --set-upstream origin FX-014
+  430  gco master
+  431  git pull
+  432  gcb FX-015
+  433  git add .
+  434  git commit
+  435  git commit -m "fix: css "
+  436  git push --set-upstream origin FX-014
+  437  git push --set-upstream origin FX-015
+  438  l
+  439  /Users/GildasOswald/src/Portfolio-Reactiv/ref-portal-fragments-app
+  440  ..
+  441  l
+  442  git status
+  443  l
+  444  clear
+  445  l
+  446  npm i
+  447  npm start
+  448  git status
+  449  git add .
+  450  git commit --fixup HEAD
+  451  git push -u origin
+  452  git add .
+  453  git commit -m "react fragments"
+  454  git push -u origin
+  455  git status
+  456  git commit -am "portals"
+  457  gp -u origin
+  458  git status
+  459  git commit -am "refs"
+  460  gp -u origin
+  461  history
+  462  git rebase -i master
+  463  git push --force
+  464  gco master
+  465  git pull
+  466  l
+  467  ../useEffect-useReducer-advanced-app
+  468  l
+  469  npm i
+  470  gcb FX-016
+  471  npm start
+  472  git status
+  473  git commit -am "effects with useEffect"
+  474  git add .
+  475  git commit -am "effects with useEffect"
+  476  git push --set-upstream origin FX-016
+  477  gco master
+  478  git pull
+  479  gcb FX-017
+  480  git status
+  481  git add .
+  482  git commit -am "useEffect"
+  483  git push --set-upstream origin FX-016
+  484  git push --set-upstream origin FX-017
+  485  gco master
+  486  git pull
+  487  gcb FX-018
+  488  ../usereducer-app
+  489  ..
+  490  cd ..
+  491  l
+  492  usereducer-app
+  493  npm i
+  494  npm start
+  495  git status
+  496  git add .
+  497  git commit -m "useReducer hooks instead of useState"
+  498  git push --set-upstream origin FX-018
+  499  git status
+  500  git add .
+  501  git commit -m "(feat) reducer implemented"
+  502  git push
+  503  history
+  504  git rebase -i master
+  505  git push --force
+  506  gco master
+  507  git pull
+  508  gcb FX-019
+  509  history
+  510  pwd
+  511  dir
+  512  l
+  513  src
+  514  l
+  515  Portfolio-Reactiv
+  516  l
+  517  src
+  518  Portfolio-Reactiv
+  519  l
+  520  history
+  521  l
+  522  usereducer-app
+  523  l
+  524  npm start
+  525  git status
+  526  git add .
+  527  git commit -m "(feat) useContext basic"
+  528  git status
+  529  git push --set-upstream origin FX-019
+  530  l
+  531  npm start
+  532  git history
+  533  git statsu
+  534  git status
+  535  git add .
+  536  git commit -m "useContext next"
+  537  gp 
+  538  npm start
+  539  git status
+  540  git add .
+  541  git commit -m "hook useImperativeHandle rarely used"
+  542  gp
+  543  history
+  544  git rebase -i master
+  545  git push --force
+  546  gco
+  547  gco master
+  548  git pull 
+  549  gcb FX-020
+  550  ../foodese
+  551  cd ../foodese
+  552  l
+  553  npm i
+  554  npm start
+  555  git status
+  556  git add .
+  557  git status
+  558  git commit -m "(feat) food app list meals and UI"
+  559  git push -u origin FX-020
+  560  history
+  561  pwd
+  562  /Users/GildasOswald/src/Portfolio-Reactiv/foodese
+  563  npm start
+  564  history
+  565  git add .
+  566  cd ..
+  567  l
+  568  pwd
+  569  l
+  570  git status
+  571  git add .
+  572  git commit --fixup HEAD -m "(feat) foodese full UI" 
+  573  history
+  574  gp
+  575  git rebase -i master
+  576  git push --force
+  577  git switch master
+  578  gco master
+  579  git pull 
+  580  pwd
+  581  l
+  582  cd Documents
+  583  l
+  584  ../src
+  585  l
+  586  Portfolio
+  587  l
+  588  V2
+  589  l
+  590  ../Portfolio
+  591  l
+  592  git status
+  593  git add .
+  594  git commit -am "(feat) V2 resume"
+  595  gp
+  596  git add .
+  597  git commit -am "improvements to v2"
+  598  gp
+  599  git status
+  600  gp
+  601  git add .
+  602  git commit -am "improvements to v2"
+  603  gp
+  604  gp --force
+  605  gp
+  606  git status
+  607  git add .
+  608  git commit -am "final CV V2"
+  609  gp
+  610  npm start
+  611  exit
+  612  ../Portfolio-Reactiv
+  613  l
+  614  foodese
+  615  footprint
+  616  ..
+  617  l
+  618  history
+  619  gcb FX-021
+  620  ..
+  621  l
+  622  git status
+  623  dom-app
+  624  npm i
+  625  npm start
+  626  ../useMemo-useCallBack-app
+  627  ..
+  628  cd ..
+  629  useMemo-useCallBack-app
+  630  npm i
+  631  npm start
+  632  git status
+  633  git add .
+  634  git commit -am "(feat) useMemo use CallBack ReactMemo"
+  635  git push origin -u FX-021
+  636  gco master
+  637  git pull
+  638  gcb FX-022
+  639  cd ..
+  640  class-app
+  641  npm install
+  642  npm start
+  643  git status
+  644  git add .
+  645  git commit -am "(feat) class state events component lifecycle  component and context  error boundaries"
+  646  git push origin -u FX-021
+  647  git push origin -u FX-022
+  648  cd ..
+  649  cd http-request-app
+  650  npm i
+  651  l
+  652  npm start
+  653  l
+  654  git status
+  655  git add .
+  656  git commit -am "(feat) button and automatic fetching with errors handling loading screen useEffect useCallBack "
+  657  history
+  658  git status
+  659  git add .
+  660  git commit -am "(feat) preparing for POST and firebase connection"
+  661  npm start
+  662  git status
+  663  git add .
+  664  git commit -am "(feat) full http added POST and firebase"
+  665  gco master
+  666  git pull
+  667  gp
+  668  gco FX-022
+  669  gp -u origin FX-022
+  670  git pull
+  671  git status
+  672  l
+  673  git add .
+  674  git status
+  675  git commit -am "(feat) adding jekyll theme to github page"
+  676  gp
+  677  git rebase master
+  678  git rebase --abort
+  679  git rebase -i
+  680  git rebase -i master
+  681  git rebase --abort
+  682  git rebase -i master
+  683  git rebase --edit-todo'
+  684  git rebase --edit-todo
+  685  goit status
+  686  git status
+  687  git rebase --continue
+  688  git rebase mqster
+  689  git rebase master
+  690  git push --force
+  691  gco master
+  692  git pull
+  693  gco FX-022
+  694  gp -u origin FX-022
+  695  git push --force
+  696  gco master
+  697  git pull
+  698  gp
+  699  git pull
+  700  gcb FX-023
+  701  ..
+  702  l
+  703  Portfolio-Reactiv
+  704  l
+  705  npx create-react-app all-test-apps
+  706  ..
+  707  l
+  708  all-test-apps
+  709  npm start
+  710  npm install @mui/material @emotion/react @emotion/styled
+  711  npm start
+  712  ..
+  713  small-apps
+  714  npm start
+  715  npm install --save styled-components
+  716  npm start
+  717  npm install react-router-dom --save\n
+  718  npm start
+  719  git status
+  720  l
+  721  git add .
+  722  git commit -am "(feat) all small apps in one app"
+  723  git push -u origin FX-023
+  724  gco master
+  725  git pull
+  726  gcb FX-024
+  727  $ npm install gh-pages --save-dev
+  728  npm install gh-pages --save-dev
+  729  l
+  730  npm run deploy -- -m "Deploy React app to GitHub Pages"
+  731  git status
+  732  git check-ignore
+  733  l
+  734  git check-ignore build
+  735  git check-ignore -v build
+  736  git status
+  737  git add .
+  738  git commit -am "Configure React app for deployment to GitHub Pages"
+  739  git push -u origin FX-024
+  740  gco master
+  741  git pull
+  742  gcb FX-025
+  743  git add .
+  744  git commit -m "(feat) gh pages stuff"
+  745  git push -u origin FX-025
+  746  git status
+  747  git reset --hard
+  748  git sttaus
+  749  git statsu
+  750  git status
+  751  gco master
+  752  git pull
+  753  gcb FX-026
+  754  l
+  755  ..
+  756  cd ..
+  757  cd
+  758  src/Portfolio-Reactiv
+  759  l
+  760  npm i
+  761  npm start
+  762  npm i
+  763  npm start
+  764  git status
+  765  git add .
+  766  git commit -m "(feat) setting up for server Pre-prod"
+  767  git push -u origin FX-026
+  768  gco master
+  769  git pull
+  770  node -v
+  771  npm -v
+  772  git pull
+  773  gcb FX-018
+  774  gcb FX-028
+  775  npm start
+  776  git add .
+  777  git commit -am "(feat) custom hooks"
+  778  l
+  779  npm start
+  780  git status
+  781  git add .
+  782  git commit -am "(feat) custom hooks with fetch function"
+  783  git tree
+  784  git status
+  785  git add .
+  786  git commit -am "(feat) custom hooks complete with binding"
+  787  history
+  788  gco master
+  789  git pull
+  790  gco FX-026
+  791  gco FX-028
+  792  git push -u origin FX-028
+  793  fit push --force
+  794  git push --force
+  795  gco master 
+  796  git pumm
+  797  git pull
+  798  gcb FX-029
+  799  git status
+  800  git add .
+  801  git commit -am "forms"
+  802  git add .
+  803  git commit -am "(feat) forms handling mail"
+  804  git status
+  805  git add .
+  806  git commit -am "(feat) input custom and using"
+  807  git status
+  808  git add .
+  809  git commit -am "(feat) custom hooks useInput"
+  810  history
+  811  ssh masteroutilsweb.wordpress.com@sftp.wp.com
+  812  git add .
+  813  git commit -am "(feat) custom hooks useInput useReducer"
+  814  git push -u origin FX-029
+  815  gco master
+  816  git pull
+  817  gp
+  818  l
+  819  history
+  820  pwd
+  821  l
+  822  pwd
+  823  l
+  824  src
+  825  l
+  826  Portfolio-Reactiv
+  827  l
+  828  npm start
+  829  src/Portfolio-Reactiv
+  830  l
+  831  history
+  832  src/Portfolio-Reactiv
+  833  gcb FX-030
+  834  git add .
+  835  git commit -am "(init) initial commit"
+  836  clear
+  837  git dd .
+  838  git add .
+  839  git commit -am "(feat) fetching http, loading and handling errors"
+  840  git add .
+  841  git commit -am "(feat) adding checkout form"
+  842  git add .
+  843  git commit -am "(feat) reading form values"
+  844  git add .
+  845  git commit -am "(feat) for validation, submission & sending data via http"
+  846  git add .
+  847  git commit -am "(feat) better user feedback updating cart"
+  848  git push -u origin FX-030
+  849  gco master
+  850  git pull
+  851  l
+  852  npm install @mui/material @emotion/react @emotion/styled\n
+  853  npm install @fontsource/roboto\n
+  854  npm install @mui/icons-material\n
+  855  gcb FX-031
+  856  git add .
+  857  git commit -am '(feat) presentation page'
+  858  git push -u origin FX-031
+  859  gco master 
+  860  git pull
+  861  gcb FX-032
+  862  l
+  863  npm start
+  864  git add . 
+  865  git commit -am "(feat) setup redux project"
+  866  git add .
+  867  git commit -am "(feat) setup store redux"
+  868  npm install redux react-redux 
+  869  npm start
+  870  git add .
+  871  git commit -am "(feat) providing store"
+  872  git add .
+  873  git commit -am "(feat) dispatching action"
+  874  git add .
+  875  git commit -am "(feat) prev is redux incomp this is dispatching action"
+  876  git add .
+  877  git commit -am "(feat) redux in class"
+  878  git add .
+  879  git commit -am "(feat) payload to redux"
+  880  git add .
+  881  git commit -am "(feat) multiple state"
+  882  npm i @reduxjs/toolkit
+  883  npm i
+  884  npm start
+  885  git add .
+  886  git commit -am "(feat) redux toolkit"
+  887  git add .
+  888  git commit -am "(feat) redux toolkit full"
+  889  git add .
+  890  git commit -am "(feat) redux toolkit multi slices"
+  891  git add .
+  892  git commit -am "(feat) redux toolkit reading useselector and dispatching usedispatch"
+  893  git add .
+  894  git commit -am "(feat) redux modularize the code"
+  895  git add .
+  896  git commit -am "(fix) redux modularize the code"
+  897  gp -u origin FX-032
+  898  gco master
+  899  git pull
+  900  gcb FX-033
+  901  git add .
+  902  git commit -am "(feat) redux advanced full ecommerce "
+  903  l
+  904  npm start
+  905  git add .
+  906  git commit -am "(feat) redux advanced full ecommerce async useeffect "
+  907  git add .
+  908  git commit -am "(feat) redux advanced full ecommerce async useeffect http feedback "
+  909  git commit -am "(feat) redux thunk action creator advanced full ecommerce "
+  910  git add .
+  911  git commit -am "(feat) redux advced fetcing at begining"
+  912  git push -u origin FX-033
+  913  gco master
+  914  git pull
+  915  gcb FX-034
+  916  npm install react-router-dom
+  917  npm uninstall react-router-dom
+  918  npm install react-router-dom@5
+  919  npm start
+  920  npm uninstall react-router-dom@5
+  921  npm install react-router-dom
+  922  npm starts
+  923  npm start
+  924  npm i
+  925  npm start
+  926  ..
+  927  git clone https://github.com/doheto/Portfolio-Reactiv-SPA.git
+  928  Portfolio-Reactiv-SPA
+  929  l
+  930  npm install
+  931  npm audit fix
+  932  Portfolio-Reactiv-SPA
+  933  npm start
+  934  git add .
+  935  git commit -am "Initial Commit"
+  936  gp -u origin
+  937  ../Portfolio-Reactiv
+  938  git add .
+  939  git commit -am "React  router on another gitt"
+  940  gp -u origin FX-034
+  941  ../Portfolio-Reactiv-SPA
+  942  gcb FX-035
+  943  npm i
+  944  npm start
+  945  git add .
+  946  git commit -am "(feat) define-use-routes working-with-Links-NavLinks dynamic routes-params-extract-params-hooks-useparams "
+  947  git add .
+  948  git commit -am "(feat) Routes Switch-Exact nested-routes redirecting"
+  949  gp -u origin FX-035
+  950  ..
+  951  git clone https://github.com/doheto/Portfolio-Reactiv-Spa-advanced.git
+  952  Portfolio-Reactiv-Spa-advanced
+  953  npm i
+  954  gcb FX-036
+  955  npm start
+  956  git add .
+  957  git commit -am "(feat) routes redirecting-extraxcting-nested routes"
+  958  git add .
+  959  git commit -am "(feat) wrapper layout data-details-styling notfound-page"
+  960  git add .
+  961  git commit -am "(feat) programmatic-naviagtion prompt-to-prevent-transition "
+  962  git commit -am "(feat) query-params useLocation useRouteMatch useParams usehistory"
+  963  git commit -am "(feat) sending and getting quote http"
+  964  git add .
+  965  git commit -am "(feat) sending and getting quote http"
+  966  git add .
+  967  git commit -am "(feat) comments"
+  968  gp -u origin FX-036
+  969  ..
+  970  l
+  971  git clone
+  972  git clone https://github.com/doheto/Portfolio-Reactiv-spa-router-v5-6.git
+  973  ../Portfolio-Reactiv-spa-router-v5-6
+  974  Portfolio-Reactiv-spa-router-v5-6
+  975  gcb FX-037
+  976  git add .
+  977  git commit -am "project spa with react router v6"
+  978  gp -u origin FX-037
+  979  ..
+  980  git clone https://github.com/doheto/Portfolio-Reactiv-Router-6.4.git
+  981  ..
+  982  l
+  983  Portfolio-Reactiv-Router-6.4
+  984  gcb FX-038
+  985  npm i
+  986  npm start
+  987  npm dev
+  988  npm run dev
+  989  git add .
+  990  git commit -am "(feat) react router 6.3 exemple"
+  991  git add .
+  992  git commit -am "(feat) router 64 loading action and error handling"
+  993  git add .
+  994  git commit -am "(feat) router 64 advanced"
+  995  git add .
+  996  git commit -am "(feat) usefetcher lazyloading"
+  997  git push -u origin FX-038
+  998  npm run dev
+  999  npm install react-router-dom@6.4
+ 1000  npm run dev
+ 1001  git add .
+ 1002  git reset HEAD 
+ 1003  gco master
+ 1004  git stash push
+ 1005  gco master
+ 1006  git pull
+ 1007  gcb FX-039
+ 1008  git pop
+ 1009  git stash pop
+ 1010  git add . 
+ 1011  git commit -am "(fix) updated to RR 64"
+ 1012  gp -u origin FX-039
+ 1013  ../Portfolio-Reactiv-spa-router-v5-6
+ 1014  gco master 
+ 1015  git pull
+ 1016  gcb FX-040
+ 1017  ../Portfolio-Reactiv-spa-router-v5-6
+ 1018  npm start
+ 1019  l
+ 1020  npm start
+ 1021  l
+ 1022  npm i
+ 1023  npm start
+ 1024  npm i -g firebase-tools
+ 1025  firebase login
+ 1026  npm start
+ 1027  firebase init
+ 1028  npm run build
+ 1029  firebase init
+ 1030  Firebase deploy
+ 1031  git add .
+ 1032  git commit -am "(feat) lazy loading building and deploying"
+ 1033  gp -u origin branch FX-040
+ 1034  gp -u origin FX-040
+ 1035  gco master
+ 1036  git pull
+ 1037  git clone https://github.com/doheto/Portfolio-Reactiv-Auth.git
+ 1038  l
+ 1039  rm -rf Portfolio-Reactiv-Auth
+ 1040  ..
+ 1041  l
+ 1042  git clone https://github.com/doheto/Portfolio-Reactiv-Auth.git
+ 1043  Portfolio-Reactiv-Auth
+ 1044  l
+ 1045  npm i
+ 1046  npm start
+ 1047  ..
+ 1048  l
+ 1049  Portfolio-Reactiv-Auth
+ 1050  gcb FX-041
+ 1051  git add .
+ 1052  git commit -am "(feat) init app with auth "
+ 1053  git add .
+ 1054  git commit -am "(feat) user signup "
+ 1055  git add .
+ 1056  git commit -am "(feat) signup feedbacks "
+ 1057  git add .
+ 1058  git commit -am "(feat) user login "
+ 1059  git add .
+ 1060  git commit -am "(feat) handling auth state "
+ 1061  git add .
+ 1062  git commit -am "(feat) attaching tokens to requests "
+ 1063  git add .
+ 1064  git commit -am "(feat) adding logout"
+ 1065  git add .
+ 1066  git commit -am "(feat) protecting pages"
+ 1067  git add . 
+ 1068  git commit -am "(feat) persisting auth status - autologout - localstorage "
+ 1069  gp -u origin FX-041
+ 1070  ..
+ 1071  git clone https://github.com/doheto/Portfolio-Reactiv-Nextjs.git
+ 1072  l
+ 1073  Portfolio-Reactiv-Nextjs
+ 1074  node -v
+ 1075  l
+ 1076  npx create-next-app
+ 1077  Portfolio-Reactiv-Nextjs
+ 1078  gcb FX-042
+ 1079  git add . 
+ 1080  git commit -am "initial commit "
+ 1081  l
+ 1082  onenext
+ 1083  npm run dev
+ 1084  git add . && git commit -am "first pages"
+ 1085  git add . && git commit -am "(feat) dynamic pages & extracting dynamic parameters"
+ 1086  git add . && git commit -am "(feat) linking between pages"
+ 1087  ../twonext
+ 1088  npm i
+ 1089  npm run dev
+ 1090  git add . && git commit -am "(feat) bigger project"
+ 1091  git add . && git commit -am "(feat) meetups list & meetup form"
+ 1092  git add . && git commit -am "(feat) _app.js & layout wrapper"
+ 1093  git add . && git commit -am "(feat)programmatic imperative navigation  & custom components css modules"
+ 1094  git add . && git commit -am "(feat) static site generation and data fetching for ssg"
+ 1095  git add . && git commit -am "(feat) server side rendering"
+ 1096  git add . && git commit -am "(feat) getStaticPath"
+ 1097  npm i mongodb
+ 1098  npm run dev
+ 1099  git add . && git commit -am "(feat) MongoDB connection "
+ 1100  git add . && git commit -am "(feat) Sending http requests to our API routes"
+ 1101  git add . && git commit -am "(feat) Getting Data from database"
+ 1102  git add . && git commit -am "(feat) Getting details & preparing pages details"
+ 1103  git add . && git commit -am "(feat) head metadata  - fallback pages - deployment on vercel "
+ 1104  gp -u origin FX-042
+ 1105  gco master
+ 1106  git stash
+ 1107  gco master
+ 1108  git pull 
+ 1109  gcb FX-043
+ 1110  git stash list
+ 1111  git pop
+ 1112  git stash pop
+ 1113  git add . && git commit -am "(fix) head metadata  - fallback pages - deployment on vercel "
+ 1114  gp -u origin FX-043
+ 1115  gco master
+ 1116  git pull
+ 1117  ..
+ 1118  l
+ 1119  Portfolio-Reactiv
+ 1120  l
+ 1121  gco master
+ 1122  git pull
+ 1123  ..
+ 1124  l
+ 1125  Portfolio-Reactiv
+ 1126  gcb FX-044
+ 1127  l
+ 1128  npm start
+ 1129  l
+ 1130  git add . && git commit -am "(feat) setup project"
+ 1131  git add . && git commit -am "(feat) css animation"
+ 1132  npm i -s react-transition-group
+ 1133  npm start
+ 1134  git add . && git commit -am "(feat) transition reacttransitiongroup transisition componeent"
+ 1135  git add . && git commit -am "(feat) Animation timing & transition component "
+ 1136  git add . && git commit -am "(feat) CSSTransition and CSS classnames"
+ 1137  git add . && git commit -am "(feat) Animating List & Alternative Animation Packages"
+ 1138  gp -u origin FX-044
+ 1139  ..
+ 1140  l
+ 1141  git clone https://github.com/doheto/Portfolio-Reactiv-Redux-To-Hooks.git
+ 1142  gco master
+ 1143  git pull
+ 1144  ..
+ 1145  l
+ 1146  Portfolio-Reactiv-Redux-To-Hooks
+ 1147  npm i
+ 1148  npm start
+ 1149  git clone https://github.com/doheto/Portfolio-Reactiv-Redux-To-Hooks.giOAtszszsszszs
+ 1150  git add . && git commit -am "(feat) setup"
+ 1151  git add . && git commit -am "(feat) using context api instead of redux"
+ 1152  git add . && git commit -am "(feat) custom hook as store"
+ 1153  git add . && git commit -am "(feat) finishing store hook "
+ 1154  git add . && git commit -am "(feat) creating and using custom store and optimizing"
+ 1155  gp
+ 1156  ..
+ 1157  l
+ 1158  ..
+ 1159  l
+ 1160  git clone
+ 1161  git clone https://github.com/doheto/Portfolio-Reactiv-Redux-To-Hooks-Multiple-Slices.git
+ 1162  Portfolio-Reactiv-Redux-To-Hooks-Multiple-Slices
+ 1163  npm i
+ 1164  git add . && git commit -am "redux to hooks multiple slmices "
+ 1165  ..
+ 1166  Portfolio-Reactiv-Redux-To-Hooks
+ 1167  git status
+ 1168  git add . && git commit -am "redux to hooks multiple slices "
+ 1169  gp
+ 1170  ..
+ 1171  git clone https://github.com/doheto/Portfolio-Reactiv-Root-2.git
+ 1172  mkdir TEST && cd TEST 
+ 1173  ..
+ 1174  .
+ 1175  cd
+ 1176  pwd
+ 1177  l
+ 1178  src
+ 1179  l
+ 1180  Portfolio-Reactiv-Root-2
+ 1181  TEST
+ 1182  Portfolio-Reactiv-Root-2
+ 1183  TEST
+ 1184  gcb FX-045
+ 1185  l
+ 1186  npm i
+ 1187  l
+ 1188  git add . && git commit -am "(feat) setup nd basic test jest and React Test Library "
+ 1189  npm run test
+ 1190  ..
+ 1191  l
+ 1192  mkdir blabla
+ 1193  blabla
+ 1194  npx create-react-app
+ 1195  npx create-react-app bla
+ 1196  ..
+ 1197  l
+ 1198  TEST
+ 1199  l
+ 1200  npm i
+ 1201  npm run test
+ 1202  git add . && git commit -am "(fix) setup nd basic test jest and React Test Library "
+ 1203  git add . && git commit -am "(feat) first test & test describe && test suite  "
+ 1204  git add . && git commit -am "(feat) User interaction "
+ 1205  git add . && git commit -am "(feat) test async code "
+ 1206  npm run test
+ 1207  src/Portfolio-Reactiv
+ 1208  l
+ 1209  ..
+ 1210  Portfolio-Reactiv-Root-2
+ 1211  l
+ 1212  git add . && git commit -am "(feat) jest mockup"
+ 1213  gp -u origin FX-045
+ 1214  ../TYPESCRIPT
+ 1215  TYPESCRIPT
+ 1216  ..
+ 1217  gco master 
+ 1218  git pull 
+ 1219  gcb FX-046
+ 1220  npm i -g typescript
+ 1221  l
+ 1222  BASIC
+ 1223  npm i
+ 1224  git add . && git commit -am "(feat) base type - unions - type aliases"
+ 1225  git add . && git commit -am "(feat) functions and generics"
+ 1226  l
+ 1227  npm i
+ 1228  l
+ 1229  npm start
+ 1230  git add . && git commit -am "(feat) component and typescript"
+ 1231  git add . && git commit -am "(feat) adding Data model"
+ 1232  git add . && git commit -am "(feat) adding sub component"
+ 1233  git add . && git commit -am "(feat) forms and useref"
+ 1234  git add . && git commit -am "(feat) function props"
+ 1235  l
+ 1236  npm start
+ 1237  npm i
+ 1238  npm start
+ 1239  npm i
+ 1240  npm start
+ 1241  npm i
+ 1242  npm start
+ 1243  git add . && git commit -am "(feat) function props and state management "
+ 1244  npm i
+ 1245  npm start
+ 1246  git add . && git commit -am "(feat) styling - removing - context API"
+ 1247  gp -u origin FX-046
+ 1248  gco master
+ 1249  git pull
+ 1250  defaults write com.apple.Finder AppleShowAllFiles true
+ 1251  killall finder
+ 1252  killall Finder
+ 1253  ..
+ 1254  l
+ 1255  Portfolio
+ 1256  l
+ 1257  git stzatus
+ 1258  git status
+ 1259  git commit -am "files"
+ 1260  git add .
+ 1261  git commit -am "files"
+ 1262  git push
+ 1263  git pull
+ 1264  git push
+ 1265  ..
+ 1266  l
+ 1267  Portfolio-Reactiv
+ 1268  ../Portfolio-Reactiv-Auth
+ 1269  gco master
+ 1270  git pull
+ 1271  ..
+ 1272  l
+ 1273  Portfolio-Reactiv-Nextjs
+ 1274  ../Portfolio-Reactiv-Redux-To-Hooks
+ 1275  ../Portfolio-Reactiv-Root-2
+ 1276  ../Portfolio-Reactiv-Router-6.4
+ 1277  gco master
+ 1278  git pull
+ 1279  ../Portfolio-Reactiv-SPA
+ 1280  gco master
+ 1281  git pull
+ 1282  ..
+ 1283  l
+ 1284  Portfolio-Reactiv-Spa-advanced
+ 1285  gco master
+ 1286  git pull
+ 1287  ..
+ 1288  l
+ 1289  Portfolio-Reactiv-spa-router-v5-6
+ 1290  ..
+ 1291  Portfolio-Reactiv
+ 1292  git add .
+ 1293  git commit -am 'readme update'
+ 1294  gp
+ 1295  l
+ 1296  src
+ 1297  l
+ 1298  Portfolio-Reactiv
+ 1299  l
+ 1300  src
+ 1301  l
+ 1302  Portfolio-Reactiv
+ 1303  dir
+ 1304  ls
+ 1305  l
+ 1306  src
+ 1307  l
+ 1308  Portfolio-Reactiv
+ 1309  cd src
+ 1310  l
+ 1311  cd Components
+ 1312  l
+ 1313  ls
+ 1314  ..
+ 1315  git add .
+ 1316  git commit -am "Update Readme"
+ 1317  gp
+ 1318  ..
+ 1319  l
+ 1320  Portfolio-Reactiv-Auth
+ 1321  git add .
+ 1322  git commit -am "Update Readme"
+ 1323  gp
+ 1324  ..
+ 1325  l
+ 1326  Portfolio-Reactiv-Nextjs
+ 1327  git add .
+ 1328  git commit -am "Update Readme"
+ 1329  gp
+ 1330  git pull
+ 1331  gp
+ 1332  ..
+ 1333  l
+ 1334  Portfolio-Reactiv-Redux-To-Hooks
+ 1335  git add .
+ 1336  git commit -am "Update Readme"
+ 1337  gp
+ 1338  ..
+ 1339  l
+ 1340  Portfolio-Reactiv-Root-2
+ 1341  l
+ 1342  git add .
+ 1343  git commit -am "Update Readme"
+ 1344  gp
+ 1345  ..
+ 1346  Portfolio-Reactiv-SPA
+ 1347  git add .
+ 1348  git commit -am "Update Readme"
+ 1349  gp
+ 1350  ..
+ 1351  Portfolio-Reactiv-Router-6.4
+ 1352  git add .
+ 1353  git commit -am "Update Readme"
+ 1354  gp
+ 1355  ..
+ 1356  Portfolio-Reactiv-spa-router-v5-6
+ 1357  git add .
+ 1358  git commit -am "Update Readme"
+ 1359  gp
+ 1360  ../Portfolio-Reactiv-Spa-advanced
+ 1361  git add .
+ 1362  git commit -am "Update Readme"
+ 1363  gp
+ 1364  ..
+ 1365  l
+ 1366  git clone https://github.com/doheto/Portfolio-Blockchain.git
+ 1367  Portfolio-Blockchain
+ 1368  node -v
+ 1369  npx create-react-app jaagen-exchange --use-npm
+ 1370  jaagen-exchange
+ 1371  l
+ 1372  ..
+ 1373  l
+ 1374  ls
+ 1375  Portfolio-Blockchain
+ 1376  jaagen-exchange
+ 1377  git add .
+ 1378  git commit -am 'Init'
+ 1379  gp
+ 1380  l
+ 1381  npm i 
+ 1382  git add .
+ 1383  git commit -am 'Init 2'
+ 1384  gp
+ 1385  l
+ 1386  npx hardat
+ 1387  npx hardhat
+ 1388  rm README.md
+ 1389  npx hardhat
+ 1390  gcb JEX-1
+ 1391  git add .
+ 1392  git commit -am "(feat) Project initiated with hardhat and npx"
+ 1393  gp -u origin JEX-1
+ 1394  gco master
+ 1395  git pull
+ 1396  history
+ 1397  ..
+ 1398  Portfolio-Blockchain
+ 1399  l
+ 1400  jaagen-exchange
+ 1401  src/Portfolio-Blockchain/jaagen-exchange
+ 1402  clear
+ 1403  npx hardhat node
+ 1404  gcb JEX-2
+ 1405  l
+ 1406  Portfolio-Blockchain/jaagen-exchange
+ 1407  l
+ 1408  npx hardhat compile
+ 1409  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1410  src
+ 1411  Portfolio-Blockchain/jaagen-exchange
+ 1412  clear
+ 1413  npx hardhat console --network localhost
+ 1414  git add .
+ 1415  git commit -am "(feat) Smoke Test"
+ 1416  gp -u origin JEX-2
+ 1417  gco master
+ 1418  git pull
+ 1419  gcb JEX-3
+ 1420  src
+ 1421  Portfolio-Blockchain
+ 1422  jaagen-exchange
+ 1423  clear
+ 1424  npx hardhat test
+ 1425  clear
+ 1426  npx hardhat test
+ 1427  clear
+ 1428  npx hardhat test
+ 1429  git add .
+ 1430  git commit -am "(feat) Testing Contracts"
+ 1431  gp -u origin JEX-3
+ 1432  gco master 
+ 1433  git pull
+ 1434  gcb JEX-4
+ 1435  npx hardhat test
+ 1436  git add .
+ 1437  git commit -am "(feat) token creation token balances"
+ 1438  gp -u origin JEX-4
+ 1439  gco master
+ 1440  git pull
+ 1441  gcb JEX-5
+ 1442  npx hardhat test
+ 1443  npx hardhat node
+ 1444  npx hardhat test
+ 1445  git add .
+ 1446  git commit -am "(feat) Token transfers"
+ 1447  gp -u origin JEX-5
+ 1448  gco master
+ 1449  git pull
+ 1450  gcb JEX-6
+ 1451  npx hardhat test
+ 1452  git add .
+ 1453  git commit -am "(feat) Approvals "
+ 1454  gp -u origin JEX-6
+ 1455  gco master
+ 1456  git pull
+ 1457  gcb JEX-7
+ 1458  npx hardhat test
+ 1459  git add .
+ 1460  git commit -am "(feat) token transfer delegation"
+ 1461  gp -u origin JEX-7
+ 1462  npx hardhat test
+ 1463  history
+ 1464  git stash push
+ 1465  gco master
+ 1466  git add .
+ 1467  git stash push
+ 1468  git pull
+ 1469  gcb JEX-8
+ 1470  git stash pop
+ 1471  npx hardhat test test/Exchange.js
+ 1472  git add .
+ 1473  git commit -am "(feat) create exchange track fee account"
+ 1474  gp -u origin JEX-8
+ 1475  gco master
+ 1476  git pull
+ 1477  gcb JEX-9
+ 1478  npx hardhat test test/Exchange.js
+ 1479  git add .
+ 1480  git commit -am '(feat) Deposit Tokens and check balances'
+ 1481  gp -u origin JEX-9
+ 1482  gco master
+ 1483  git pull
+ 1484  gcb JEX-10
+ 1485  npx hardhat test test/Exchange.js
+ 1486  git add .
+ 1487  git commit -am "(feat) withdraw tokens"
+ 1488  gp -u origin JEX-10
+ 1489  gco master
+ 1490  git pull
+ 1491  gcb JEX-11
+ 1492  npx hardhat test test/Exchange.js
+ 1493  git add .
+ 1494  git commit -am "(feat) making orders on exchange"
+ 1495  gp -u origin JEX-11
+ 1496  gco master
+ 1497  git pull
+ 1498  gcb JEX-12
+ 1499  npx hardhat test test/Exchange.js
+ 1500  git diff
+ 1501  git add .
+ 1502  git commit -am "(feat) Cancel Orders"
+ 1503  gp -u origin JEX-12
+ 1504  gco master
+ 1505  git pull
+ 1506  gcb JEX-13
+ 1507  npx hardhat test test/Exchange.js
+ 1508  git diff
+ 1509  git add .
+ 1510  git commit -am "(fat) Trade execution, fill orders and charge fees"
+ 1511  gp -u origin JEX-13
+ 1512  gco master
+ 1513  git pull
+ 1514  gcb JEX-14
+ 1515  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1516  l
+ 1517  touch scripts/2_seed-exchange.js
+ 1518  npx hardhat run scripts/2_seed-exchange.js
+ 1519  history
+ 1520  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1521  git status
+ 1522  git add .
+ 1523  git commit -am "(feat) Seed exchange and main interactions"
+ 1524  gp -u origin JEX-14
+ 1525  gco master
+ 1526  git pull
+ 1527  l
+ 1528  src
+ 1529  l
+ 1530  Portfolio-Blockchain
+ 1531  l
+ 1532  jaagen-exchange
+ 1533  l
+ 1534  npm run start
+ 1535  gcb JEX-18
+ 1536  git add .
+ 1537  git commit -am "(feat) UI DEX Setup "
+ 1538  gp -u origin JEX-18
+ 1539  gco master 
+ 1540  git pull
+ 1541  gcb JEX-19
+ 1542  git add .
+ 1543  git commit -am '(feat) Setting up Redux React part 1 '
+ 1544  gp -u origin JEX-19
+ 1545  gco master
+ 1546  git pull
+ 1547  gcb JEX-20
+ 1548  git add .
+ 1549  git commit -am '(feat) Setting up Redux React part 2 '
+ 1550  gp -u origin JEX-20
+ 1551  gco master
+ 1552  git pull
+ 1553  gcb JEX-21
+ 1554  npm i react-blockies
+ 1555  npm start
+ 1556  git add .
+ 1557  git commit -am "(feat) NavBar implementation and changing network with switch using metamask"
+ 1558  gp -u origin JEX-21
+ 1559  gco master
+ 1560  git pull
+ 1561  gcb JEX-22
+ 1562  git add .
+ 1563  git commit -am "(feat) Selecting trading pairs"
+ 1564  gp -u origin JEX-22
+ 1565  gco master 
+ 1566  git pull
+ 1567  gcb JEX-23
+ 1568  git add .
+ 1569  git commit -am "(feat) Deposit token to exchange "
+ 1570  gco master 
+ 1571  gcb JEX-23
+ 1572  gco JEX-23
+ 1573  gp -u origin JEX-23
+ 1574  gco master 
+ 1575  git pull
+ 1576  gcb JEX-24
+ 1577  git add .
+ 1578  git commit -am "(feat) Deposit token to exchange 2"
+ 1579  gp -u origin JEX-24
+ 1580  gco master
+ 1581  git pull
+ 1582  gcb JEX-25
+ 1583  git add .
+ 1584  git commit -am '(feat) withdrawals and auto balance update' 
+ 1585  gp -u origin JEX-25
+ 1586  gco master
+ 1587  git pull
+ 1588  gcb JEX-26
+ 1589  npx hardhat node
+ 1590  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1591  git diff
+ 1592  git add .
+ 1593  git commit -am "(feat) Making orders buy and sell orders "
+ 1594  gp -u origin JEX-26
+ 1595  gco master
+ 1596  git pull
+ 1597  gcb JEX-27
+ 1598  npm install moment --save
+ 1599  npm i --save lodash
+ 1600  npm start
+ 1601  npx hardhat node
+ 1602  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1603  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1604  git add . 
+ 1605  git commit -am "(feat) order book with color with cartorization buy or sell "
+ 1606  gp -u origin JEX-27
+ 1607  gco master
+ 1608  git pull
+ 1609  gcb JEX-28
+ 1610  git add .
+ 1611  git commit -am '(feat) price chart using apexchart.js'
+ 1612  gp -u origin JEX-28
+ 1613  gco master
+ 1614  git stash push
+ 1615  git pull
+ 1616  gcb JEX-29
+ 1617  git stash pop
+ 1618  git 
+ 1619  git status
+ 1620  git add .
+ 1621  git commit -am "(feat) trades done "
+ 1622  gp -u origin JEX-29
+ 1623  gco master
+ 1624  git status
+ 1625  gco JEX-29
+ 1626  git stash pop
+ 1627  git status
+ 1628  git add .
+ 1629  git commit --fixup HEAD
+ 1630  gp
+ 1631  git rebase -i master
+ 1632  git push --force
+ 1633  gco master
+ 1634  git pull
+ 1635  gcb JEX-30
+ 1636  src
+ 1637  l
+ 1638  Portfolio-Blockchain
+ 1639  jaagen-exchange
+ 1640  l
+ 1641  npm start
+ 1642  src
+ 1643  l
+ 1644  Portfolio-Blockchain
+ 1645  l
+ 1646  ja
+ 1647  jaagen-exchange
+ 1648  l
+ 1649  history
+ 1650  src/Portfolio-Blockchain
+ 1651  l
+ 1652  ~/src/Portfolio-Blockchain/jaagen-exchange
+ 1653  npx hardhat node
+ 1654  ~/src/Portfolio-Blockchain/jaagen-exchange
+ 1655  npx hardhat console --network localhost
+ 1656  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1657  npx hardhat compile
+ 1658  l
+ 1659  jaagen-exchange
+ 1660  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1661  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1662  npx hardhat node
+ 1663  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1664  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1665  git add .
+ 1666  git commit -am "(feat) show all my open orders "
+ 1667  gp -u origin JEX-30
+ 1668  gco master
+ 1669  git pull
+ 1670  gcb JEX-31
+ 1671  npx hardhat node
+ 1672  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1673  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1674  git add . 
+ 1675  git commit -am "(feat) All my trades and my transaction "
+ 1676  gp -u origin JEX-31
+ 1677  gco master
+ 1678  git pull
+ 1679  gcb JEX-32
+ 1680  git add .
+ 1681  git commit -am '(feat) cancelling orders '
+ 1682  gp -u origin JEX-32
+ 1683  gco master 
+ 1684  git pull
+ 1685  gcb JEX-33
+ 1686  npx hardhat node
+ 1687  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1688  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1689  git add . 
+ 1690  git commit -am "(feat) fill orders and updating balances"
+ 1691  gp -u origin JEX-33
+ 1692  gco master
+ 1693  git pull
+ 1694  gcb JEX-34
+ 1695  npx hardhat node
+ 1696  npx hardhat run --network localhost ./scripts/1_deploy.js
+ 1697  npx hardhat run --network localhost scripts/2_seed-exchange.js
+ 1698  git add . 
+ 1699  git commit -am "(feat) Transactions status using alert js"
+ 1700  gp -u origin JEX-34
+ 1701  gco master
+ 1702  git pull
+ 1703  gcb JEX-35
+ 1704  npx hardhat run --network goerli ./scripts/1_deploy.js
+ 1705  npx hardhat run --network goerli ./scripts/1_deploy.js --show-stack-traces
+ 1706  npx hardhat node
+ 1707  npx hardhat run --network goerli ./scripts/2_seed-exchange.js --show-stack-traces
+ 1708  npx hardhat run --network goerli ./scripts/1_deploy.js --show-stack-traces
+ 1709  npx hardhat run --network goerli ./scripts/2_seed-exchange.js --show-stack-traces
+ 1710  git add .
+ 1711  git commit -am 'smartcontract deployed to infura and website to vercel or fleek'
+ 1712  gp -u origin JEX-35
+ 1713  gco master 
+ 1714  git pull
+ 1715  gcb JEX-37
+ 1716  ..
+ 1717  l
+ 1718  auditing-contracts
+ 1719  l
+ 1720  npm i
+ 1721  git add .
+ 1722  git commit -am "(feat) auditing smart contracts"
+ 1723  gp -u origin JEX-37
+ 1724  gco master
+ 1725  git pull
+ 1726  gcb JEX-38
+ 1727  ../hack-smart-contracts
+ 1728  npm i
+ 1729  npx hardhat compile
+ 1730  git add . 
+ 1731  git commit -am '(feat) hacking smart contracts re entrancy'
+ 1732  gp -u origin JEX-38
+ 1733  gco master 
+ 1734  gco JEX-38
+ 1735  git status
+ 1736  gco master
+ 1737  gco JEX-38
+ 1738  git status
+ 1739  gco master
+ 1740  git status
+ 1741  gco master
+ 1742  git pull
+ 1743  gcb JEX-39
+ 1744  ../save-gas
+ 1745  npm i
+ 1746  npx hardhat compile
+ 1747  git add . && git commit -am '(feat) saving Gas'
+ 1748  git status
+ 1749  gp -u origin JEX-39
+ 1750  gco master 
+ 1751  git pull
+ 1752  gcb JEX-40 
+ 1753  git status
+ 1754  ../upgradable-contracts
+ 1755  l
+ 1756  uups-demo
+ 1757  l
+ 1758  npm i 
+ 1759  ../upgradable-contracts
+ 1760  l
+ 1761  uups-demo
+ 1762  l
+ 1763  npx hardhat run --network goerli ./scripts/1_deploy_number.js
+ 1764  npx hardhat verify --network goerli 0xD3C4fe99Fe5D8c9650da2341F45bE0F966C7986F
+ 1765  npx hardhat run --network goerli ./scripts/2_upgrade_number.js
+ 1766  npx hardhat verify --network goerli 0x098208Ae1BE21c1A56286992756Eae8f86853275
+ 1767  git add .
+ 1768  git commit -am "(feat) upgradable smart contracts"
+ 1769  gp -u origin JEX-40
+ 1770  gco master
+ 1771  git pull
+ 1772  gcb JEX-41
+ 1773  ..
+ 1774  l
+ 1775  NFTs
+ 1776  l
+ 1777  punks-nft
+ 1778  l
+ 1779  art_generator
+ 1780  l
+ 1781  npm i
+ 1782  l
+ 1783  node scripts/generateRarityConfig.js
+ 1784  node scripts/create.js
+ 1785  node scripts/regenerateMetadata.js
+ 1786  ../open_punks
+ 1787  l
+ 1788  npm i
+ 1789  npx truffle migrate --reset --network goerli
+ 1790  l
+ 1791  npm start
+ 1792  ..
+ 1793  l
+ 1794  NFTs/punks-nft/open_punks
+ 1795  npx truffle run verify OpenPunks --network goerli
+ 1796  git add .
+ 1797  git commit -am "(feat) classic NFT website with minting, opensea, truffle, psd layers"
+ 1798  gp -u origin JEX-41
+ 1799  gco master
+ 1800  git pull
+ 1801  gcb JEX-42
+ 1802  git add . 
+ 1803  git commit -am '(feat) nft openmoji'
+ 1804  gp -u origin JEX-42
+ 1805  gco master 
+ 1806  git pull 
+ 1807  gcb JEX-43
+ 1808  npm start
+ 1809  git add .
+ 1810  git commit -am '(feat) nft improvements contracts'
+ 1811  gp -u origin JEX-43
+ 1812  gco master
+ 1813  git pull
+ 1814  history
+ 1815  git pull
+ 1816  gcb JEX-44
+ 1817  git add .
+ 1818  git commit -am '(feat) yield farming setup'
+ 1819  ../..
+ 1820  l
+ 1821  ..
+ 1822  l
+ 1823  YieldFarming
+ 1824  l
+ 1825  juicyswap
+ 1826  l
+ 1827  npm i 
+ 1828  ../../..
+ 1829  m
+ 1830  YieldFarming
+ 1831  l
+ 1832  juicyswap-frontend
+ 1833  l
+ 1834  git add .
+ 1835  git commit -am 'update'
+ 1836  git add .
+ 1837  git commit -am 'update 2 fix code lint'
+ 1838  npm i -g yarn
+ 1839  l
+ 1840  rm -rf package-lock.json
+ 1841  npm i
+ 1842  l
+ 1843  npm i
+ 1844  l
+ 1845  ./setup.sh
+ 1846  truffle migrate --reset --network goerli
+ 1847  l
+ 1848  truffle migrate --reset --network goerli
+ 1849  truffle migrate --reset --network goerli --trace-warnings
+ 1850  truffle migrate --reset --network goerli
+ 1851  ./setup.sh
+ 1852  truffle migrate --network goerli
+ 1853  truffle migrate --reset --network goerli
+ 1854  l
+ 1855  truffle migrate --reset --network goerli
+ 1856  l
+ 1857  npm i @truffle/hdwallet-provider
+ 1858  truffle migrate --reset --network goerli
+ 1859  ..
+ 1860  ../..
+ 1861  .
+ 1862  cd
+ 1863  src/Portfolio-Blockchain/YieldFarming
+ 1864  l
+ 1865  jaavjaavswap
+ 1866  truffle migrate --reset --network goerli
+ 1867  ../
+ 1868  l
+ 1869  jaavjaavswap-frontend
+ 1870  yarn install
+ 1871  ../jaavjaavswap
+ 1872  l
+ 1873  truffle migrate --reset --network goerli
+ 1874  git add .
+ 1875  git commit -am "(feat) uniswapp UI plus Uniswapp smartcontract bug in governor"
+ 1876  gp -u origin JEX-44
+ 1877  gco master 
+ 1878  git pull
+ 1879  gcb JEX-45
+ 1880  ..
+ 1881  l
+ 1882  TRADING
+ 1883  l
+ 1884  Trading_bot
+ 1885  truffle --version
+ 1886  ganache --version
+ 1887  l
+ 1888  npm i ganache --global
+ 1889  ganache --version
+ 1890  l
+ 1891  npm i 
+ 1892  history
+ 1893  ganache
+ 1894  ..
+ 1895  TRAPING
+ 1896  TRADING
+ 1897  l
+ 1898  Trading_bot
+ 1899  l
+ 1900  ganache -f -m "whisper divorce road foster control range wish believe wonder share dwarf peace" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1901  l
+ 1902  truffle migrate --reset
+ 1903  ganache -f -m "whisper divorce road foster control range wish believe wonder share dwarf peace" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1904* l
+ 1905* truffle migrate --reset
+ 1906* npm uninstall ganache
+ 1907* npm uninstall ganache-cli ganache-core
+ 1908* ganache
+ 1909* npm uninstall -g ganache
+ 1910* ganache
+ 1911* npm uninstall -g ganache-cli
+ 1912* npm uninstall -g ganache-core
+ 1913  ganache
+ 1914* truffle
+ 1915* npm uninstall -g truffle
+ 1916* sudo npm uninstall -g truffle
+ 1917* truffle
+ 1918* node -v
+ 1919* truffle --version 
+ 1920* npm i -g truffle
+ 1921* truffle --version 
+ 1922* ganache --version
+ 1923* npm install ganache --global
+ 1924* l
+ 1925* rm -rf node_modules
+ 1926* npm i
+ 1927* ganache
+ 1928* ganache -f -m "census cluster firm balance escape popular sorry nurse again joy shift glad" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1929  l
+ 1930  truffle migrate --reset
+ 1931* git status
+ 1932* git add . 
+ 1933* git commit -am '(feat) blockchain based tradiing bot for flash loans'
+ 1934  truffle migrate --reset
+ 1935* ganache
+ 1936* ganache -f -m "clap ridge capable uniform plug hero correct panther logic amount future wood" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1937  truffle migrate --reset
+ 1938* git status
+ 1939* git add . 
+ 1940* git commit -am 'edit compil working'
+ 1941  l
+ 1942  node bot.js
+ 1943* ganache
+ 1944* ganache -f -m "cross pipe auction kitten picture mixture story sell sight siege narrow meadow" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1945  truffle migrate --reset
+ 1946  node bot.js
+ 1947* ganache
+ 1948* ganache -f -m "village burst leopard panel decrease drama split decrease usual spoon clown token" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1949* ganache
+ 1950* ganache -f -m "student skill peace bar evidence rural rule zero follow subway type network" -u 0xdEAD000000000000000042069420694206942069 -p 7545
+ 1951  truffle migrate --reset
+ 1952  node bot.js
+ 1953* ..
+ 1954* l
+ 1955* TRA
+ 1956* TRADING
+ 1957* l
+ 1958* Trading_bot
+ 1959* l
+ 1960* clear
+ 1961* node ./scripts/manipulatePrice.js
+ 1962* gp -u origin JEX-45
+ 1963* gco master
+ 1964* git pull
+ 1965* gcb JEX-46
+ 1966  clear
+ 1967* cleer
+ 1968* clear
+ 1969  ../..
+ 1970  l
+ 1971  YieldFarming
+ 1972  l
+ 1973  jaavjaavswap
+ 1974  ..
+ 1975  jaavjaavswap
+ 1976  l
+ 1977  ./setup.sh
+ 1978* git add . 
+ 1979* git commit -am '(fix) fixing compiling issue for yield farming'
+ 1980  ./setup.sh
+ 1981  l
+ 1982  truffle migrate --reset --network goerli
+ 1983  l
+ 1984  npm uninstall -s truffle-hdwallet-provider-privkey
+ 1985  npm install @truffle/hdwallet-provider\n
+ 1986  truffle migrate --reset --network goerli
+ 1987  ./setup.sh
+ 1988  ../jaavjaavswap-frontend
+ 1989  l
+ 1990  yarn start
+ 1991* l
+ 1992* YieldFarming
+ 1993* l
+ 1994* jaavjaavswap
+ 1995* ..
+ 1996* jaavjaavswap
+ 1997* truffle networks
+ 1998  ..
+ 1999  jaavjaavswap
+ 2000  ./setup.sh
+ 2001  truffle networks
+ 2002* l
+ 2003* ../jaavjaavswap-frontend
+ 2004* l
+ 2005* yarn start
+ 2006* git add . 
+ 2007* git commit -am "(feat) yield farming working"
+ 2008* gp -u origin JEX-46
+ 2009* gco master
+ 2010* git pull
+ 2011* gcb JEX-47
+ 2012* git add .
+ 2013* git commit -am "(fix) updating folder names"
+ 2014* gp -u origin JEX-47
+ 2015* gco master
+ 2016* git pull
+ 2017* gcb JEX-48
+ 2018* l
+ 2019* ../../FLASHLOAN/flashloan
+ 2020* l
+ 2021* clear
+ 2022* ganache -p 7545 -f
+ 2023* git add .
+ 2024* git commit -am "(feat) flashloan init"
+ 2025* ganache -p 7545 -f
+ 2026  l
+ 2027  ../..
+ 2028  l
+ 2029  cd
+ 2030  src
+ 2031  Portfolio-Blockchain
+ 2032  l
+ 2033  FLASHLOAN/flashloan
+ 2034  l
+ 2035  npm i
+ 2036  truffle test
+ 2037* git add .
+ 2038* git commit -am 'flash loan using remis'
+ 2039* ../..
+ 2040* l
+ 2041* FLASHLOAN/flashloan
+ 2042* l
+ 2043* ganache -p 7545 -f
+ 2044  truffle test
+ 2045* ganache -p 7545 -f
+ 2046  truffle test
+ 2047* git status
+ 2048* git add . 
+ 2049* git commit -am 'fixup'
+ 2050* git add . 
+ 2051* git commit -am 'fixup contracts and tests'
+ 2052* gp -u origin JEX-48
+ 2053* gco master
+ 2054* git pull
+ 2055* gcb JEX-49
+ 2056* git add .
+ 2057* git commit -am '(feat) staking contract website init '
+ 2058  ..
+ 2059  l
+ 2060  STAKING
+ 2061  l
+ 2062  eth_staking
+ 2063  l
+ 2064  npm i
+ 2065* truffle version 
+ 2066* git add . 
+ 2067* git commit -am 'fixup'
+ 2068* gp -u origin JEX-49
+ 2069* gco master
+ 2070* git pull
+ 2071* gcb ALT-PORTFOLIO-FIX
+ 2072* gid add .
+ 2073* ..
+ 2074* Portfolio
+ 2075* git status
+ 2076* git add ?
+ 2077* git add .
+ 2078* git commit -am 'README'
+ 2079* gp -u origin ALT-PORTFOLIO-FIX
+ 2080* git pop
+ 2081* git stash pop
+ 2082* gp
+ 2083* l
+ 2084* ..
+ 2085* l
+ 2086* Portfolio-Blockchain
+ 2087* l
+ 2088* gco master
+ 2089* git pull
+ 2090* gcb JEX-50
+ 2091* src/Portfolio-Blockchain/TOKENS/authentication
+ 2092* l
+ 2093* npm i 
+ 2094* npm audit fix
+ 2095* npm start
+ 2096* git add . 
+ 2097* git commit -am "(feat) Token authentication"
+ 2098* gp -u origin JEX-50
+ 2099* gco master
+ 2100* git pull
+ 2101* gcb JEX-51
+ 2102* ..
+ 2103* l
+ 2104* ..
+ 2105* TRADING
+ 2106* l
+ 2107* Atomic-Swap-Marketplace
+ 2108* l
+ 2109* npx hardhat run scripts/deploy-goerli.js —network goerli
+ 2110* l
+ 2111* npm i
+ 2112* npx hardhat run scripts/deploy-goerli.js —-network goerli
+ 2113* npx hardhat run --network goerli ./scripts/deploy-goerli.js
+ 2114* ..
+ 2115* Atomic-Swap-Marketplace
+ 2116* npx hardhat run --network goerli ./scripts/deploy-goerli.js
+ 2117* ..
+ 2118* Atomic-Swap-Marketplace
+ 2119* npx hardhat run --network goerli ./scripts/deploy-goerli.js
+ 2120* npx hardhat run --network mumbai ./scripts/deploy-mumbai.js
+ 2121* cd client
+ 2122* l
+ 2123* npm i 
+ 2124* l
+ 2125* yarn i
+ 2126* yarn install
+ 2127* yarn start
+ 2128* git status
+ 2129* git add . 
+ 2130* git status
+ 2131* git add .
+ 2132* git commit -am '(feat) Atomic Swap'
+ 2133* gp -u origin JEX-51
+ 2134* gco master
+ 2135* git pull
+ 2136* gcb JEX-52
+ 2137* git add .
+ 2138* git commit -am "(feat) Renaming & Slot Machine init"
+ 2139* git add . 
+ 2140* git commit -am "(ix) Renaming"
+ 2141* ../..
+ 2142* l
+ 2143* git add . 
+ 2144* git commit -am "(fix) Renaming and architecture"
+ 2145* ..
+ 2146* l
+ 2147* GAMING
+ 2148* l
+ 2149* Cryptocurrency-Slot-machine
+ 2150* l
+ 2151* npm i
+ 2152* npx hardhat run --network goerli ./src/backend/scripts/deploy.js
+ 2153* l
+ 2154* npm start
+ 2155* git add . 
+ 2156* git commit -am '(feat) slot machine done '
+ 2157* gp -u origin JEX-52
+ 2158* gco master
+ 2159* git pull
+ 2160* gcb JEX-53
+ 2161* git add .
+ 2162* git commit -am '(feat) NFT OpenSEa Visualizer'
+ 2163* gp -u origin JEX-53
+ 2164* gco master
+ 2165* git pull
+ 2166* gcb JEX-54
+ 2167* git add . 
+ 2168* git commit -am '(feat) GENERAL TEMPLATE'
+ 2169* gp -u origin JEX-54
+ 2170* gco master
+ 2171* git pull
+ 2172* gcb JEX-55
+ 2173* git add . 
+ 2174* git commit -am '(feat) moralis escrow governed by DAO'
+ 2175* ..
+ 2176* l
+ 2177* GOVERNANCE
+ 2178* l
+ 2179* Moralis-Escrow-Dao
+ 2180* l
+ 2181* npx hardhat node --fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2182* l
+ 2183* npm i 
+ 2184* npx hardhat node --fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2185* ..
+ 2186* GOVERNANCE
+ 2187* l
+ 2188* Moralis-Escrow-Dao
+ 2189* l
+ 2190* npx hardhat run src/backend/scripts/deploy.js
+ 2191* l
+ 2192* npm start
+ 2193  ..
+ 2194  GOVERNANCE/Moralis-Escrow-Dao
+ 2195  l
+ 2196  node src/backend/scripts/moveBlock5.js
+ 2197  node src/backend/scripts/moveTime.js
+ 2198* npx hardhat node --fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2199* ..
+ 2200* GOVERNANCE/Moralis-Escrow-Dao
+ 2201* l
+ 2202* npx hardhat run src/backend/scripts/deploy.js
+ 2203* node src/backend/scripts/moveBlock5.js
+ 2204* node src/backend/scripts/moveTime.js
+ 2205* git add . 
+ 2206* git commit -am '(feat) done MOralis escrow DAO governed'
+ 2207* gp -u origin JEX-55
+ 2208* gco master 
+ 2209* git pull
+ 2210* gcb JEX-56
+ 2211* ../..
+ 2212* l
+ 2213* TRADING
+ 2214* l
+ 2215* ENS-Marketplace
+ 2216* l
+ 2217* npm i 
+ 2218* npx hardhat compile
+ 2219* npm run deploy-goerli
+ 2220* ..
+ 2221* ENS-Marketplace
+ 2222* npm run deploy-goerli
+ 2223* l
+ 2224* npm start
+ 2225* git add . 
+ 2226* git commit -am '(feat) ENS DOMAIN MARKETPLACE'
+ 2227* gp -u origin JEX-56
+ 2228* gco master
+ 2229* git pull
+ 2230* gcb JEX-57
+ 2231* ../..
+ 2232* l
+ 2233* TRADING
+ 2234* l
+ 2235* Dex-Aggregator
+ 2236* l
+ 2237* npm i 
+ 2238* npx hardhat node --fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2239* ..
+ 2240* l
+ 2241* Dex-Aggregator
+ 2242* l
+ 2243* npx hardhat test
+ 2244  ../../TRADING/Dex-Aggregator
+ 2245  clear
+ 2246  npx hardhat console
+ 2247  npx hardhat run scripts/deploy.js
+ 2248  npx hardhat console
+ 2249* git add . 
+ 2250* git commit -am '(feat) DEX AGGREGATOR'
+ 2251* gp -u origin JEX-57
+ 2252* gco master
+ 2253* git pull
+ 2254* gcb JEX-61
+ 2255* ../..
+ 2256* l
+ 2257* OPTIMISATION
+ 2258* l
+ 2259* abi_encoding_encoded_functions
+ 2260* npm i 
+ 2261* npx hardhat test
+ 2262* git add . 
+ 2263* git commit -am '(feat) abi encoding encoded functions'
+ 2264* gp -u origin JEX-61
+ 2265* gco master
+ 2266* git pull`
+ 2267* git pull
+ 2268* gcb JEX-69
+ 2269* ../..
+ 2270* l
+ 2271* FRONTTOOLS
+ 2272* l
+ 2273* usedapp_hooks
+ 2274* l
+ 2275* yarn i
+ 2276* yran install 
+ 2277* yarn install 
+ 2278* truffle migrate --reset 
+ 2279* yarn start
+ 2280* git add . 
+ 2281* git commit -am '(feat) useDapp Hook'
+ 2282* gp -u origin JEX-69
+ 2283* gco master
+ 2284* git pull 
+ 2285* gcb JEX-60
+ 2286* clear
+ 2287  clae
+ 2288  claer
+ 2289  clear
+ 2290* claer
+ 2291* clear
+ 2292* git status
+ 2293* git add .
+ 2294* git commit -am '(feat) call delegate and multicall'
+ 2295* gp -u origin JEX-60
+ 2296* gco master 
+ 2297* git pull
+ 2298* gcb JEX-80
+ 2299* git add .
+ 2300* git commit -am '(feat) EVM opcodes'
+ 2301* gp -u origin JEX-80
+ 2302* gco master
+ 2303* git pull
+ 2304* gcb JEX-75
+ 2305* clear
+ 2306* ../..
+ 2307* m
+ 2308* l
+ 2309* TRADING
+ 2310* l
+ 2311* crypto-token-index-fund
+ 2312* l
+ 2313* npm i
+ 2314* l
+ 2315* npx hardhat test --network hardhat
+ 2316* clear
+ 2317* npx hardhat test --network hardhat
+ 2318* clear
+ 2319* npx hardhat test --network hardhat
+ 2320* npx hardhat node —fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2321* npx hardhat node --fork https://mainnet.infura.io/v3/a2eb608e33044b548c65b4d555e90ee3
+ 2322* ../../TRADING/crypto-token-index-fund
+ 2323* npx hardhat run --network localhost scripts/deploy.js
+ 2324* npm start
+ 2325* git add .
+ 2326* git commit -am '(feat) S&P500 Defi token'
+ 2327* gp -u origin JEX-75
+ 2328* j
+ 2329* l
+ 2330* gco master
+ 2331* git pull
+ 2332* clear
+ 2333* gcb JEX-58
+ 2334* git add . 
+ 2335* git commit 'init'
+ 2336* git add . 
+ 2337* git commit -am 'fix'
+ 2338* git add .
+ 2339* git commit -am '(feat) uniswap based dapp - swapping tokens'
+ 2340* gp -u origin JEX-58
+ 2341* gco master 
+ 2342* git pull
+ 2343* gcb JEX-62
+ 2344* ../..
+ 2345* l
+ 2346* GOVERNANCE
+ 2347* l
+ 2348* dao-governance
+ 2349* l
+ 2350* npm i
+ 2351* git add . 
+ 2352* git commit -am '(feat) DAO from scratch'
+ 2353* gp -u oirigin JEX-62
+ 2354* gp -u origin JEX-62
+ 2355* gco master
+ 2356* git pull
+ 2357* gcb JEX-89
+ 2358* ..
+ 2359* l
+ 2360* SECURITY/signing_messages
+ 2361* l
+ 2362* npm i
+ 2363* npm start
+ 2364* ../..
+ 2365* l
+ 2366* SECURITY/signing_messages
+ 2367* l
+ 2368  clear
+ 2369  ganache-cli --port 8545
+ 2370* truffle compile
+ 2371* truffle migrate --reset
+ 2372* git add .
+ 2373* git commit -am '(feat) eth signatures'
+ 2374* gp -u origin JEX-89
+ 2375* gco master
+ 2376* git pull
+ 2377* gcb JEX-87
+ 2378* git add .
+ 2379* git commit -am 'Multisig wallet'
+ 2380* gp -u origin JEX-87
+ 2381* gco master
+ 2382* git pull
+ 2383* gcb JEX-64
+ 2384* ../..
+ 2385* l
+ 2386* TRADING
+ 2387* l
+ 2388* token_bridge
+ 2389* l
+ 2390* npm i
+ 2391  ganache-cli --port 8545
+ 2392* ../../TRADING/token_bridge
+ 2393* l
+ 2394* truffle migrate --reset --network goerli
+ 2395* l
+ 2396* npm uninstall truffle-hdwallet-provider-privkey
+ 2397* npm install @truffle/hdwallet-provider
+ 2398* truffle migrate --reset --network goerli
+ 2399* truffle migrate --reset --network bsc_testnet
+ 2400* truffle migrate --reset --network goerli
+ 2401* ..
+ 2402* token_bridge
+ 2403* truffle migrate --reset --network goerli
+ 2404* truffle migrate --reset --network bsc_testnet
+ 2405* npm start
+ 2406* git add . 
+ 2407* git commit -am '(feat) cross chain token bridge goerli-bsc'
+ 2408* gp -u origin JEX-64
+ 2409* gco master
+ 2410* git pull 
+ 2411* gcb JEX-000
+ 2412* ../../SECURITY/Json-Keystore
+ 2413* l
+ 2414* npm i
+ 2415* npm i ethereumjs-wallet
+ 2416* node export-key-as-json.js cd21828382a8660585a359c2584c691b19ab4996322720272306b0d7e18186de @Zerty#12345
+ 2417* npm install hardhat-secure-accounts
+ 2418* ..
+ 2419* Json-Keystore
+ 2420* ..
+ 2421* Json-Keystore
+ 2422* clear
+ 2423* npx hardhat accounts add 
+ 2424* npx hardhat run --network goerli scripts/deploy.js
+ 2425* ..
+ 2426* Json-Keystore
+ 2427* npx hardhat run --network goerli scripts/deploy.js
+ 2428* npx hardhat run --network polygon_mumbai scripts/deploy.js
+ 2429* git add ? 
+ 2430* git add .
+ 2431* git commit -am 'json keystore instead of private key'
+ 2432* gp -u origin JEX-000
+ 2433* gco master
+ 2434* git pull
+ 2435* gcb JEX-107
+ 2436* git add .
+ 2437* git commit -am 'pro dapp wallet web3moda'
+ 2438* gp -u origin JEX-107
+ 2439* gco master
+ 2440* git pull
+ 2441* gcb JEX-91
+ 2442* SECURITY/dapp_wallet_walletConnect
+ 2443* l
+ 2444* npm i
+ 2445* npm start
+ 2446* git add .
+ 2447* ..
+ 2448* git add .
+ 2449* git commit -am '(feat) walletconnect inside pro dappwith mobile'
+ 2450* gp -u origin JEX-91
+ 2451* gco master
+ 2452* git pull
+ 2453* gcb JEX-88
+ 2454* git add . 
+ 2455* git commit -am '(feat) eth push notification '
+ 2456* gp -u origin JEX-88
+ 2457* gco master
+ 2458* git pull
+ 2459* ..
+ 2460* l
+ 2461* Portfolio
+ 2462* l
+ 2463* V2
+ 2464* clear
+ 2465* l
+ 2466* ..
+ 2467* l
+ 2468* ..
+ 2469* l
+ 2470* gco master
+ 2471* Portfolio
+ 2472* gco master
+ 2473* gco main
+ 2474* git pull
+ 2475* gcb PORTFOLIO-310123
+ 2476* ../../../Portfolio-Reactiv
+ 2477* gcb PORTFOLIO-310123
+ 2478* l
+ 2479* npm start
+ 2480* git status
+ 2481* gco master
+ 2482* git stash push
+ 2483* git status
+ 2484* git switch PORTFOLIO-310123
+ 2485* gco PORTFOLIO-310123
+ 2486* git stash pop
+ 2487* npm start
+ 2488* git add .
+ 2489* git commit -am 'updating'
+ 2490* gp -u origin PORTFOLIO-310123 
+ 2491* gco master
+ 2492* git pull
+ 2493* npm start
+ 2494* git add . 
+ 2495* git commit
+ 2496* git status
+ 2497* git commit -am 'fixup'
+ 2498* gp
+ 2499* git ad . 
+ 2500* git add . 
+ 2501* git commit -am 'updating with new projects'
+ 2502* gp -u origin PORTFOLIO-310123
+ 2503* gco master
+ 2504* git pull
+ 2505* gco main
+ 2506* git status
+ 2507* git stash push
+ 2508* gco main 
+ 2509* git pull
+ 2510* git stash pop
+ 2511* git add . 
+ 2512* git add .
+ 2513* git commit -am 'update with more projects'
+ 2514* gp
+ 2515* git add . 
+ 2516* git commit -am 'update'
+ 2517* gp
+ 2518* ..
+ 2519* Portfolio-Blockchain
+ 2520* l
+ 2521* git pull
+ 2522* gcb JEX-96
+ 2523* ..
+ 2524* l
+ 2525* clear
+ 2526* l
+ 2527* Portfolio-Blockchain
+ 2528* l
+ 2529* GOVERNANCE/ICO-LAUNCH
+ 2530* l
+ 2531* npm i
+ 2532* l
+ 2533* npx hardhat compile
+ 2534* ..
+ 2535* ICO-LAUNCH
+ 2536* npx hardhat compile
+ 2537* npx hardhat run ./scripts/deploy.js
+ 2538  ..
+ 2539  l
+ 2540  ..
+ 2541  l
+ 2542  GOVERNANCE/ICO-LAUNCH
+ 2543  npx hardhat console
+ 2544  npx hardhat node
+ 2545* npx hardhat run ./scripts/deploy.js
+ 2546* git status
+ 2547* git add . 
+ 2548* git commit -am '(ICO minting through remix or create ur rontend)'
+ 2549* git status
+ 2550* gp -u origin JEX-96
+ 2551* gco master
+ 2552* git pull
+ 2553* gcb JEX-72
+ 2554  ..
+ 2555  /..
+ 2556  src
+ 2557  Portfolio-Blockchain/NFTs/nft_auction
