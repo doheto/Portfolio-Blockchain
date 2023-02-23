@@ -1,0 +1,88 @@
+Dans le scenario complet the first time the guy create an account 
+
+we have tiles at the top 
+welcome on the platform that will allow you to :
+
+tile 1:   invest in blockchain startup easily, follow their progress
+
+tile 2:    raise funds using cryptocurrencies, with metrics, progress and other interesting features
+
+tile 3:   integrate the best crypto venture capitals to access under the radar or very special investment opportunities 
+
+tile 4 :  set up recurring payment for your employee, or your customers, or the mebers of your group
+
+tile 5 :  airdrop tokens or currencies (yes yes that's it make it rain )
+
+tile 6 :  OTC Market 
+
+tile 7 :  Trading (ripple, btc. eth, neo, eos, lisk, waves) borderless
+
+tile 8 :  Smart escrow system 
+
+tile 9 : create or import a wallet to manage your money :)
+
+tile 10: no login no password
+
+
+down you have : 
+
+
+
+the standard page with infos news like facebook : 
+
+filters:  All     |     VCs    |    Trading   |  Investments  | Others  
+**Create or Import a wallet to manage adequately your money  :)
+**ICO DACH : our next deal is in 2 hours you will like it 
+**IAN BALINA : Join my Mastermind group specialized in STOs only
+**ExNetWork: Join our trading group , or follow our trades : 20% profit on OMISEGO fire fire 
+**SHAMBOO : networking energy
+
+
+
+when he clicks on a an investment or pool link what happens is if no cookie then we check the defaut 
+address from the wallet manager when we get it we set it in the cookie and then page load.
+if nothing from the manager then we simply ask for an address and follow the old process simply.
+
+
+no when i want to contribute i just press contribute 
+
+next page just say : 
+
+choose speed :    tortoise     rabbit     jaguar   flash 
+
+[[[[[
+contributing with 0x4fcooooo9090    current balance  5 eth   remnaining after action  3.5 eth   Ok CONTRIBUTe  or   NO DECLINE 
+
+u have also the more details arrow to display or hide the details for those who want to use 
+]]]]]
+
+or 
+[[[[[[
+this address is not registered with the wallet Manager for smooth UEX we ad=vise you to add this wallet to the wallet manager here ...
+
+u have also the more details arrow to display or hide the details for those who want to use 
+]]]]]]
+
+
+we are not creating a wallet manager, we never allow user to enter an addres to send something to... thats way no hacker can 
+do anything for we automatically send only to the currentpool address variable and nothing else. 
+
+
+[[[[[
+in the section wallet manager the user can connect Trezor or ledger nano thats it, create a wallet or import  wallet.
+you can add address, check balances, update rates becuase we want to see a USD equivalent value.
+
+- he can add wallet
+    - generate wallet, provide the seed, keypassword
+    - when he will contribute for the first time the address will be registered on the blockchain 
+    - we will save on chain : a part of the seed hashed and he must keep another part of the seed if not he looses all. 
+        - like that when he connects we will check our contract, pull the part that concern him, and he enters his part
+        we construct the whole hash , then we deconstruct the whole hash to seed and we restore the wallet. (safe ?)
+]]]]]
+
+
+
+on a deux cas :
+
+klkuun ki a contribué sans creer leur compte sans enregistrer leurs addresses 
+et dans ce cas ya pas de probleme ils continuent avec le systeme existant

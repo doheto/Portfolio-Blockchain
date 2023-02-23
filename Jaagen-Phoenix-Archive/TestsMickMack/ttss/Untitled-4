@@ -1,0 +1,17 @@
+- create wallet :
+a wallet is a struct composed of 
++ an uuid
++ get master key share who is the private share 
++ last derived address pos
++ a network : testent ..
++ a map containing the addresses
+
+- get a btc address
++ derive new key from master key share : childshare
++ get his public key
++ get address using bitcoin::Address::p2wpkh  use bitcoinjs-lib for that 
+
+next u need get balance and update. 
+
+
+later u will do backup and recovery and restore LATER

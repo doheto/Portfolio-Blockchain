@@ -1,0 +1,521 @@
+   23  node app.js 
+   24  node app.js 
+   25  node app.js 
+   26  node app.js 
+   27  node app.js 
+   28  node app.js 
+   29  node app.js 
+   30  node app.js 
+   31  node app.js 
+   32  node app.js 
+   33  node app.js 
+   34  node app.js 
+   35  node app.js 
+   36  node app.js 
+   37  node app.js 
+   38  node app.js 
+   39  node app.js 
+   40  node app.js 
+   41  node app.js 
+   42  node app.js 
+   43  node app.js 
+   44  node app.js 
+   45  node app.js 
+   46  node app.js 
+   47  node app.js 
+   48  node app.js 
+   49  node app.js 
+   50  node app.js 
+   51  node app.js 
+   52  node app.js 
+   53  node app.js 
+   54  node app.js 
+   55  node app.js 
+   56  node app.js 
+   57  node app.js 
+   58  node app.js 
+   59  node app.js 
+   60  npm i -s html2plaintext
+   61  node app.js 
+   62  npm install --save google-translate-api
+   63  npm audit
+   64  npm audit fix
+   65  node app.js 
+   66  node app.js 
+   67  node app.js 
+   68  npm install --save @k3rn31p4nic/google-translate-api
+   69  node app.js 
+   70  npm uninstall --save @k3rn31p4nic/google-translate-api
+   71  npm uninstall --save google-translate-api
+   72  node app.js 
+   73  node app.js 
+   74  npm install
+   75  node app.js 
+   76  npm help
+   77  node app.js 
+   78  npm install google-translate --save
+   79  node app.js 
+   80  node app.js 
+   81  node app.js 
+   82  node app.js 
+   83  node app.js 
+   84  node app.js 
+   85  node app.js 
+   86  node app.js 
+   87  node app.js 
+   88  node app.js 
+   89  node app.js 
+   90  node app.js 
+   91  node app.js 
+   92  node app.js 
+   93  node app.js 
+   94  node app.js 
+   95  node app.js 
+   96  node app.js 
+   97  node app.js 
+   98  node app.js 
+   99  node app.js 
+  100  heroku git:remote -a kingschat-telegrambot
+  101  git -v
+  102  git push heroku master
+  103  heroku logs --tail
+  104  git push heroku master
+  105  git push heroku master
+  106  heroku logs --tail
+  107  git push heroku master
+  108  heroku logs --tail
+  109  npm i -s express
+  110  node app.js 
+  111  git push heroku master
+  112  heroku logs --tail
+  113  ls
+  114  node app.js 
+  115  git push heroku master
+  116  heroku logs --tail
+  117  ls
+  118  node app.js 
+  119  git push heroku master
+  120  heroku logs --tail
+  121  ls
+  122  node app.js 
+  123  git push heroku master
+  124  truffle console --network rinkeby
+  125  geth --rinkeby  --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi "web3,eth,net,personal,admin" --rpccorsdomain "*" --verbosity "0" --minerthreads 1 --maxpeers 2 --cache 128 console
+  126  exit
+  127  cd ~/Library
+  128  cd Containers/
+  129  cd com.apple.Notes
+  130  ls
+  131  grep -r ambition
+  132  grep -r "ambition"
+  133  ls
+  134  cd MySMC/
+  135  ls
+  136  cd frontend/server/
+  137  node app.js 
+  138  node app.js 
+  139  node app.js 
+  140  node app.js 
+  141  node app.js 
+  142  node app.js 
+  143  node app.js 
+  144  node app.js 
+  145  node app.js 
+  146  ls
+  147  cd ../
+  148  ls
+  149  ls
+  150  cd ../
+  151  ls
+  152  cd SmartContract/
+  153  ls
+  154  darq-truffle migrate -f 2 --network rinkeby --reset console
+  155  ls
+  156  darq-truffle migrate -f 2 --network rinkeby --reset console
+  157  darq-truffle migrate -f 2 --network rinkeby --reset console
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd SMC
+  162  ls
+  163  cd MySMC/
+  164  ls
+  165  cd SMCToken/
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd TELEGRAM_BOT/
+  170  ls
+  171  cd Telegram_Affirmation_Translation_Bot/
+  172  ls
+  173  heroku logs --tail
+  174  heroku logs --tail
+  175  heroku logs --tail
+  176  heroku logs --tail
+  177  heroku logs --tail
+  178  heroku ps
+  179  heroku ps:restart web
+  180  heroku logs --tail
+  181  heroku ps:restart web
+  182  heroku logs --tail
+  183  heroku logs --tail
+  184  heroku ps:restart web
+  185  heroku logs --tail
+  186  pwd
+  187  heroku logs --tail
+  188  heroku ps:restart web
+  189  heroku logs --tail
+  190  ls
+  191  cd MySMC/frontend/
+  192  ls
+  193  npm start
+  194  ls
+  195  npm i -s redux-immutable
+  196  npm start
+  197  npm start
+  198  npm start
+  199  npm start
+  200  npm i -s react-cookie
+  201  npm uninstall -s react-cookie
+  202  npm start
+  203  npm start
+  204  npm start
+  205  npm start
+  206  ls
+  207  cd MySMC/frontend/
+  208  cd autoserver/
+  209  ls
+  210  cd
+  211  ls
+  212  ls
+  213  cd MySMC/
+  214  ls
+  215  cd frontend/
+  216  ls
+  217  ls
+  218  npm start
+  219  ls
+  220  cd MySMC/
+  221  ls
+  222  cd frontend/server/
+  223  node app.js 
+  224  node app.js 
+  225  cd MySMC/frontend/
+  226  ls
+  227  npm start
+  228  npm start
+  229  npm start
+  230  cd MySMC/frontend/server/
+  231  node app.js 
+  232  node app.js 
+  233  node app.js 
+  234  node app.js 
+  235  node app.js 
+  236  node app.js 
+  237  /Volumes/WIGIWIGI/liyl ; exit;
+  238  ls
+  239  cd server/
+  240  node app.js exit
+  241  exit
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd autoserverGetTransferEvents/
+  246  ls
+  247  node app.js 
+  248  cls
+  249  clear
+  250  node app.js 
+  251  node app.js 
+  252  node app.js 
+  253  node app.js 
+  254  node app.js 
+  255  node app.js 
+  256  node app.js 
+  257  node app.js 
+  258  node app.js 
+  259  npm uninstall web3 --save
+  260  npm uninstall web3 --save
+  261  ls
+  262  npm i
+  263  node app.js 
+  264  node app.js 
+  265  node app.js 
+  266  node app.js 
+  267  clear
+  268  node app.js 
+  269  clear
+  270  node app.js 
+  271  clear
+  272  clear
+  273  node app.js 
+  274  clear
+  275  node app.js 
+  276  node app.js 
+  277  node app.js 
+  278  node app.js 
+  279  node app.js 
+  280  node app.js 
+  281  node app.js 
+  282  node app.js 
+  283  node app.js 
+  284  c
+  285  c
+  286  c
+  287  c
+  288  c
+  289  c
+  290  ccccccc
+  291  cccc
+  292  c
+  293  c
+  294  c
+  295  c
+  296  node app.js 
+  297  node app.js 
+  298  node app.js 
+  299  node app.js 
+  300  c
+  301  c
+  302  c
+  303  c
+  304  c
+  305  c
+  306  c
+  307  c
+  308  c
+  309  c
+  310  c
+  311  c
+  312  c
+  313  c
+  314  c
+  315  cc
+  316  c
+  317  c
+  318  cc
+  319  c
+  320  c
+  321  c
+  322  c
+  323  c
+  324  c
+  325  c
+  326  c
+  327  c
+  328  c
+  329  c
+  330  c
+  331  c
+  332  c
+  333  c
+  334  c
+  335  c
+  336  c
+  337  c
+  338  node app.js 
+  339  c
+  340  cc
+  341  c
+  342  cc
+  343  c
+  344  c
+  345  c
+  346  c
+  347  c
+  348  c
+  349  c
+  350  c
+  351  c
+  352  node app.js 
+  353  node app.js 
+  354  exit
+  355  ls
+  356  cd ..
+  357  cd autoserverGetTransferEvents/
+  358  node app.js 
+  359  node app.js 
+  360  node app.js 
+  361  exit
+  362  cd ..
+  363  ls
+  364  cd autoserverGetTransferEvents/
+  365  node app.js 
+  366  exit
+  367  cd ..
+  368  cd autoserverGetTransferEvents/
+  369  ls
+  370  node app.js 
+  371  exit
+  372  ls
+  373  cd MySMC/
+  374  ls
+  375  cd SmartContract/
+  376  ls
+  377  cd ..
+  378  ls
+  379  cd SMCToken/
+  380  ls
+  381  truffle migrate -f 2 --network rinkeby --reset console
+  382  truffle console --network rinkeby
+  383  cd ..
+  384  cd autoserverGetTransferEvents/
+  385  node app.js 
+  386  node app.js 
+  387  node app.js 
+  388  node app.js 
+  389  node app.js 
+  390  node app.js 
+  391  node app.js 
+  392  node app.js 
+  393  node app.js 
+  394  cd MySMC/frontend/server/
+  395  node appToUpdateContracts.js 
+  396  node appToUpdateContracts.js 
+  397  pwd
+  398  node app.js 
+  399  node app.js 
+  400  cd MySMC/frontend/
+  401  ls
+  402  npm start
+  403  ls
+  404  pwd
+  405  cd ..
+  406  ls
+  407  cd SMC/gotham-city-master/
+  408  ls
+  409  cls
+  410  ls
+  411  ls
+  412  curl https://sh.rustup.rs -sSf | sh
+  413  exit
+  414  exit
+  415  cd gotham-city-master/gotham-server/
+  416  cargo run --release
+  417  exit
+  418  ls
+  419  cd gotham-city-master/gotham-client/
+  420  ls
+  421  ls
+  422  cargo build --release
+  423  cargo build --release
+  424  rustup override set nightly
+  425  cargo build --release
+  426  rustup target remove wasm32-unknown-unknown
+  427  cargo clean --release
+  428  cargo build --release
+  429  cargo clean --release
+  430  cargo build --release
+  431  cargo build --release
+  432  rustup override set nightly
+  433  cargo build --release
+  434  cargo clean --release
+  435  cd ~/.cargo
+  436  ls
+  437  rm -rf .
+  438  rm -rf ./*
+  439  ls
+  440  cd /Users/GildasOswald/SMC/gotham-city-master/gotham-client
+  441  cargo build --release
+  442  rustup override set nightly
+  443  sudo /usr/local/lib/rustlib/uninstall.sh
+  444  rust
+  445  cargo
+  446  exit
+  447  cd gotham-city-master/gotham-server/
+  448  cargo run --release
+  449  exit
+  450  cd ..
+  451  cd gotham-client/
+  452  cargo
+  453  rustup
+  454  curl https://sh.rustup.rs -sSf | sh
+  455  exit
+  456  cargo
+  457  clear
+  458  pwd
+  459  dir
+  460  ls
+  461  rm -rf gotham-city-master/
+  462  rm -rf thresh-sig-js-master/
+  463  rustc --version
+  464  rustup update 
+  465  rustup toolchain install nightly
+  466  rustup toolchain install nightly-2019-10-04
+  467  git clone https://github.com/KZen-networks/thresh-sig-js
+  468  cd thresh-sig-js/
+  469  npm i
+  470  rustup run nightly rustc --version
+  471  rustup default nightly
+  472  npm i
+  473  rustup toolchain install nightly-2019-09-12
+  474  rustup run nightly rustc --version
+  475  rustup toolchain install nightly-2019-09-12
+  476  rustup default nightly
+  477  rustup run nightly rustc --version
+  478  rustup default nightly
+  479  npm i
+  480  rustup clean
+  481  rustup toolchain install nightly
+  482  rustup run nightly rustc --version
+  483  rustup toolchain install nightly
+  484  rustup run nightly rustc --version
+  485  rustc 1.39.0-nightly
+  486  node -v
+  487  npm -v
+  488  sudo npm install n -g
+  489  sudo n stable
+  490  node -v
+  491  npm -v
+  492  rustup install  1.39.0-nightly
+  493  rustup toolchain list
+  494  rustup default nightly-2019-09-12-x86_64-apple-darwin
+  495  rustup toolchain list
+  496  npm i
+  497  xcode-select --install
+  498  xcode-select --install software update
+  499  node -v
+  500  npm -v
+  501  xcode-select --install
+  502  rustup toolchain list
+  503  cd thresh-sig-js/
+  504  npm i 
+  505  rustup toolchain list
+  506  rustup default nightly-2019-09-12-x86_64-apple-darwin
+  507  node -v
+  508  npm -v
+  509  rustup toolchain list
+  510  sudo xcode-select --reset
+  511  sudo xcode-select --reset
+  512  sudo xcode-select --reset
+  513  xcode-select --install
+  514  sudo xcode-select --reset
+  515  npm i
+  516  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  517  brew help
+  518  brew install gmp
+  519  cd ..
+  520  history >> history.txt 
+  521  history
+  522  history > history2.txt
+
+
+
+ZENGO
+
+u launch zengo
+u enter mail 
+they send link to mail 
+u click then it launches app 
+then touch ID or face ID pour authentifier juste l’app. 
+wallet is created and pks are distributed : one on your device and the other on the server side. 
+impossible to add fund without backup 
+et alors si c’est la premiere fois il faut backup avec Facetec zoom. 
+while backup is done :
+- client side :  your pk1 is encrypted and put on ur drive.  the decryption to that encpk1 is stored on zengo server. so your pk1 is stored encrypted unto ur drive
+
+when u wanna send u just authenticate launch the app and then send simple.
+when u wanna restaure then u simply scan ur face then  the encpk1 on drive meets the decryption to that encpk1 to restaure the wallet. 
+in case server zengo are off what happen ? how to restore ? they have a 3rd party system with a public github repo that they can trigger to transform all into privatekey only addresses 
+
+in fact the pk1 and the pk2 meets and then PKs for each coin are generated by the app

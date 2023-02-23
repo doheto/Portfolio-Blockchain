@@ -1,0 +1,50 @@
+{
+  "name": "@kzen-networks/thresh-sig",
+  "version": "0.3.6",
+  "description": "Threshold signatures based on two-party ECDSA",
+  "main": "./dist/src/index.js",
+  "types": "./dist/types/index.d.ts",
+  "repository": "https://github.com/KZen-networks/thresh-sig.git",
+  "author": "Oded Leiba <oded@kzencorp.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start-p1-server": "node ./demo/party1.js",
+    "clean": "rm -rf dist",
+    "build-rust": "neon build -r",
+    "build-ts": "tsc",
+    "build": "npm run build-rust && npm run build-ts",
+    "test": "mocha",
+    "prepublishOnly": "npm run build && npm test",
+    "postinstall": "npm run build-rust"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.8",
+    "@zilliqa-js/crypto": "^0.7.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.1.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@kzen-networks/binance-thresh-wallet": "^0.2.3",
+    "@types/elliptic": "^6.4.9",
+    "axios": "^0.19.0",
+    "bigi": "^1.4.2",
+    "coinstring": "^2.3.0",
+    "ecurve": "^1.0.6",
+    "elliptic": "^6.5.1",
+    "ethereumjs-tx": "^2.1.2",
+    "neon-cli": "^0.2.0",
+    "node-async-loop": "^1.2.2",
+    "satoshi-bitcoin": "^1.0.4",
+    "web3": "^1.2.1"
+  },
+  "engines": {
+    "node": "^10.16.0",
+    "npm": "^6.9.0"
+  }
+}
