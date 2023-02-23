@@ -1,0 +1,25 @@
+0+9
+personal.ListAccounts
+personal.listAccounts
+admin.stopRPC
+admin.stopRPC()
+admin.startRPC()
+admin.stopRPC()
+admin.startRPC
+admin.startRPC(18.191.249.239, 8545, "*", "web3,db,net,eth")
+admin.startRPC("18.191.249.239", 8545, "*", "web3,db,net,eth")
+admin.startRPC("172.31.22.234", 8545, "*", "web3,db,net,eth")
+admin.stopRPC()
+eth.getCompilers
+eth.getCompilers()
+eth.getAccounts
+eth.getAccounts()
+eth.getCode()
+eth.getCompilers()
+admin.setSolc("/usr/bin/solc")
+admin.getDatadir()
+admin.getPeers()
+admin.peers()
+admin.peers
+admin.nodeInfo
+web3.version

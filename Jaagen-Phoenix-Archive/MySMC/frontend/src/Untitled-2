@@ -1,0 +1,110 @@
+
+
+————
+BLANK
+1- on cree un wallet a partir dun nouveau seed il envoie et lui dit sauve en BD avec le nom qui va avec 
+
+2-on importe un wallet a partir du seend on lui dit sauve en BD avec le nom si ca nexiste pas 
+
+3- on importe a partir dune cle prive on liui dit sauve en BD avec le nom si ca nexiste pas 
+
+
+
+NOTBLANK
+— cree un nouveau wallet 
+	A si 1- alors le mm seed est utilisé et on envoie en BE et on dit sauve en BD avec le nom qui va avec on ajoute 
+    	    mets le en fils de 1- et on dit aussi met 1- comme son pere 
+	B si 2-  alors ce new wallet est un sous jacent du 2- donc on rejoint A/
+	C si 3- alors new seed generated, new wallet generated on lui dit save en BE avec son nom et 3- en fils et C- 	    en pere de 3-
+— on importe wallet a partir d’un seed alors quon avait :
+	A- si 1- va ton tolerer deux keystore ???? deux seed ? 
+	B- si 2- ca revient a cequi est tt juste en haut la 
+	C- si 3- ben on save celui ci en BE avec son nom et on le met en pere de celui qui est importé 
+
+— on importe a partir dune cle prive alors quon avait 
+	A/ B/ C/ celui quon vient dimporter est tj linkedto a une autre address et c tt. mais la tete du seed.
+
+
+————
+
+A la creation 
+
+on click new 
+On choisit reseau ou chain
+
+Il fait entrer un custom name. 
+Il fait ok on saivegarde en back end l’addresse et le nom. et on persiste le nom 
+
+———
+
+A la creation 
+
+On click restore from pk
+On choisit le réseau ou chain
+On en tre adrresse et pk
+On check si on l’a 
+Si non in laisse entrer un nom 
+Puis save
+
+
+
+
+———
+Quand on fait plus
+Il propose sous kel chain on v creer 
+Ensuite il demande un nom tt en verifiant si ca nexiste pas deja 
+Ensuite sil y a un seed il genere automatiquement et le met dans le tableau sinon il affiche le modal. 
+
+———
+il faut un button plus qui ajoute depuis privatekey 
+
+
+il faut un boutton pour importer a partir dun seed qui existe
+———
+1 keystore or multiple ones?? 
+1 password fir all ?? 
+
+
+———
+check balances and updates rates is for all wallets present there 
+ a button to show all token transactions that will be where the name/ address is and when pressed a Modl comes out with the list of ERC20 we noticed on his wallet and a ticker display hide.
+
+———
+tokens show:
+
+— imported wallet from priv key AND new wallet 
+1- TO BACK END
+u save in DB directly for the server 3 to compare for real time transfers and update db for this
+that server is connected to our  node
+track all transfer events in real time : Watch all transfers concerning the addresses that we have in DB and filter
+when it find a new token that we didnt save in DB for a particular address it save the contract address simply in the db for that address
+
+2- TO FRONT END  in parrallel to 1-
+dispatch this to REDUX SAGA 
+get the file containing all contracts erc20 in json format 
+https://github.com/kvhnuke/etherwallet/blob/mercury/app/scripts/tokens/ethTokens.json
+
+for each check balance if greater than 0 then save it in an array
+at the end send save in db all contracts address related to that address that u found.
+build an array with contract symbol, name, contract address, solde 
+save that array in redux saga because it must be available on all pages. 
+use https://raw.githubusercontent.com/TrustWallet/tokens/master/tokens/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45.png
+to get icons for contracts and save them locally mauybe 
+
+3- every 5minutes refresh by querying DB (should be done in redux saga)
+the front end will request fr contracts address of this address and the list of contracts will be returned and compared to what we have (we will build up add to what we have if there are differences and save to redux saga)
+
+the front  will ask for the balances and symbol and names and save all that in redux saga. 
+
+4-
+if he presses on refresh then 3- is executed 
+
+
+————
+everytime someone generates an address, u must bind it to the main one that was first generated through seed and make sure
+ that in BE it is binded so that when the person reconnects elsewhere you can regenarates those. keep notice of the
+  click to know at which position it stopped so u can regeenarates it. 
+
+when a wallet is imported u can only suggest in a corner u imported those wallets, since they imported them they
+ should reimport them if they move device and surely they must 
+anyway we will suggest it to them and also suggest the pools they contributed into but greyed them. 

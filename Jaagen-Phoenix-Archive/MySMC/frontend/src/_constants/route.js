@@ -1,0 +1,16 @@
+export const route = {
+    SIGN_UP: '/signup',
+    SIGN_IN: '/signin',
+    LANDING: '/',
+    HOME: '/home',
+    ACCOUNT: '/account',
+    PASSWORD_FORGET: '/pw-forget',
+    MYPOOLS: '/account/mypools',
+    ACCOUNTWALLET: '/account/wallets',
+    ACCOUNTWALLETADD: '/account/wallets/add',
+    ACCOUNTWALLETVERIFY: '/account/wallets/verify',
+    SETTINGS: '/account/settings',
+    CREATEPOOL: '/create/pool',
+    APOOL: '/pool/:currency/:poolid',
+    APOOLCREATOR: '/pool/creator/:currency/:poolid', 
+};
