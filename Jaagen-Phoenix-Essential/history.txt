@@ -112,12 +112,6 @@ disposition des consoles
 
 4- u have the frontend
 
-5- u have /Users/GildasOswald/TELEGRAM_BOT/Telegram_Affirmation_Translation_Bot  
-heroku logs --tail    : showing all logs
-heroku ps:restart web   : restart the web service
-git push heroku master  to push new modif to heroku
-
-
 6-
 /Users/GildasOswald/SMC/MySMC/frontend/autoserverGetTransferEvents  a server   so node app.js
 
