@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "SEQUOIA",
-  "author": "AVOCEGAMOU GILDAS",
+  "author": "JOSHUA GILDAS",
   "license": "Private",
   "dependencies": {
     "@chevtek/react-spinners": "^1.0.5",
