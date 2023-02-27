@@ -1,0 +1,238 @@
+
+   10  sudo apt-get install git
+   11  git
+   12  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+   13  sudo apt-get install gcc g++ make
+   14  sudo apt-get install -y nodejs
+   15  which nodejs
+   16  echo $PATH
+   17  exit
+   18  sudo add-apt-repository -y ppa:ethereum/ethereum
+   19  sudo apt-get install ethereum
+   20  sudo apt-get update
+   21  sudo apt-get install ethereum
+   48  geth --rinkeby --identity "MyTestNode" --datadir "./data" --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi "web3,eth,net" --rpccorsdomain "*"  --verbosity "3" --light console
+   49  geth --rinkeby --identity "MyTestNode" --datadir "./data" --rpc --rpcaddr "172.31.22.234" --rpcport "8545" --rpcapi "web3,eth,net,personal" --rpccorsdomain "*"  --verbosity "3" --light --solc "/usr/lib/node_modules/solc" console
+   50  geth --rinkeby --identity "MyTestNode" --datadir "./data" --rpc --rpcaddr "172.31.22.234" --rpcport "8545" --rpcapi "web3,eth,net,personal" --rpccorsdomain "*"  --verbosity "3" --light console
+   86  sudo npm install -g solc
+   87  which solc
+   88  sudo add-apt-repository ppa:ethereum/ethereum
+   89  sudo apt-get update
+   90  sudo apt-get install solc
+   99  sudo npm install -g truffle
+  104  sudo npm install -g ganache-cli
+  105  ganache-cli
+  121  history
+  122  history > history.txt
+
+  install bower
+  install gulp
+  503  npm install -g ganache-cli
+  504  sudo npm install -g ganache-cli
+  505  geth
+  513  bower install
+  514  sudo npm install -g bower
+  515  bower install
+  517  npm install
+  518  sudo npm install -g solc
+  519  sudo npm install -g truffle
+  520  sudo npm install -g ganache-cli
+  522  gulp serve
+  523  sudo npm install -g gulp
+  524  gulp serve
+
+  install extension visual studio for solidity 
+  install ganache UI
+  check if bower works and browser launch 
+  
+
+ 227  cd SmartContract/
+  228  ls
+  229  rm -rf exec/
+  230  truffle create test contractCreationAndInteraction
+  231  truffle create test MySMCFactory
+  232  cd test/
+  233  rm contract_creation_and_interaction.js
+  234  truffle test ./my_s_m_c_factory.js
+  286  truffle compile --all --network development
+  287  truffle migrate --reset -f 2 --network development --verbose-rpc
+  288  truffle compile --all --network development
+  291  truffle migrate --reset -f 2 --network development --verbose-rpc --compile-all
+  292  truffle migrate --reset -f 2 --network development --verbose-rpc --compile-all
+  293  truffle migrate --reset -f 2 --network development --compile-all
+  294  truffle test ./my_s_m_c_factory.js
+  295  truffle test ./
+  296  truffle create test atest
+  cd SMCToken/
+  509  ls
+  510  npm init
+  511  npm install openzeppelin-solidity --save-dev
+  512  truffle version
+  513  node -v
+  514  ls
+  515  truffle compile
+  516  truffle migrate --reset
+  517  truffle console         SMCToken.deployed().then((instance) => { mtk = instance })     then play with mtk like : mtk.name....
+
+darq-truffle migrate --network rinkeby
+darq-truffle migrate -f 2 --reset --network rinkeby --compile-all
+Never use Ganache mnemonic or Ganache addresses to deploy on rinkeby or kovan etc ... 
+
+
+solcjs MySMCFactory.sol MySMC.sol --abi
+
+geth --rinkeby  --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi "web3,eth,net,personal,admin" --rpccorsdomain "*" --verbosity"0" console
+geth --rinkeby  --rpc --rpcaddr "localhost" --rpcport "8545" --rpcapi "web3,eth,net,personal,admin" --rpccorsdomain "*" --verbosity "0" --minerthreads 1 --maxpeers 2 --cache 256 console
+
+password is passphrase for the account 0xBf18b2918A36463D7a84f111d616c65392e91825 geth --rinkeby
+
+1- deploy your token on rinkeby Network : truffle migrate -f 2 --network rinkeby --reset console
+2- connect to rinkeby by doing this : truffle console --network rinkeby
+3-then do your manip there : SMCToken.deployed().then((instance) => { mtk = instance })     then play with mtk like : mtk.name....
+0x47715c5edb8383dabe53b200bbe28395ecd444f6//now i think
+
+real SMC contract with 1000000
+mtk.transfer("0x2AdE6D07D4dc63A51848E2dA08EbD17eFEBBB93F", 1000000000000000000000)   // this is to transfer just 1000 units
+truffle migrate -f 2 --network rinkeby --reset console
+truffle console --network rinkeby
+
+geth --rinkeby  --rpc --rpcapi "web3,eth,net,personal,admin" --rpccorsdomain "*" --verbosity "0" --minerthreads 1 --maxpeers 1 --cache 128 console
+
+mtk.transfer("0x75a653139a5be0625942defDaf889FA8f2D41004", 1000000);
+mtk.transfer("0x4FC046ba137c6b75e98b56cbb33CA58869CC5161", 1000000);
+
+
+disposition des consoles 
+
+1-  node app.js   first server      and         SmartContract on the other hand with darq-truffle migrate -f 2 --reset --network rinkeby --compile-all
+
+2- on one side u launch geth in local   and the other u launch the token managing process 
+
+3- u have the autoserver
+
+4- u have the frontend
+
+6-
+/Users/GildasOswald/SMC/MySMC/frontend/autoserverGetTransferEvents  a server   so node app.js
+
+
+
+
+
+
+
+MORE THAN ONE INSTANCE OF BITCORE......
+/Users/GildasOswald/SMC/MySMC/frontend/node_modules/bitcore-lib/index.js
+/Users/GildasOswald/SMC/MySMC/frontend/node_modules/eth-lightwallet/dist/lightwallet.js
+/Users/GildasOswald/SMC/MySMC/frontend/node_modules/eth-lightwallet/dist/lightwallet.min.js
+/Users/GildasOswald/SMC/MySMC/frontend/node_modules/bitcore-mnemonic/node_modules/bitcore-lib/bitcore-lib.js
+/Users/GildasOswald/SMC/MySMC/frontend/node_modules/bitcore-lib/bitcore-lib.js
+
+
+;Y7-v!N2Rj|i
+escape detect guide police host comfort snap denial envelope bless ball chapter
+
+
+gildas.eth
+adapt denial ivory riot axis floor person climb alarm dawn drip brief
+pCHXRtWdewTw
+
+oswald.eth
+rack spin index retire auction wedding design will car rib village fix
+S|U5a!4jTOS<
+1st address = 0xec54b981534d7e3801c6623a519921ccbe791db1
+
+decrease veteran bachelor mango cherry noise luggage ocean sight venue surface orange
+
+felicite
+razor draw melody net total vote dragon unable essence become theory hurdle
+/|$\~RIKqgGA
+
+bintouf
+undo episode burger aisle arena inside cradle sight deny mercy lens water   
+8XL7FADt2@L0
+
+choukapika
+lion ribbon damage once sick fringe shift crouch art hamster lumber woman 
+/'nsFb;%&/Z!
+law february illness aspect ill wood second concert hurt rescue design pelican
+@WL_l!H$VGV#
+
+antique kit pudding apology speak wisdom beyond allow virtual truly file doll
+vLV~F>$4u{C}
+
+
+subway exclude layer purity early crumble unique vote hockey tiny tribe mention
+Password for browser encryption:
+Hn7J8l/+(Mon
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+EVERYTHING I HAVE LEARNED
+
+JAVASCRIPT / REACT JS \
+NODE JS
+MONGODB
+SOLIDITY PROGRAMMING MOCHA TRUFFLE : creating smart contract, pooling system, signature system....  Create a decentralised exchange 
+Created a web hot wallet 
+Soon implemented a threshold wallet on wasm / and android/ ios   using RUST and React NATIVE
+implementing an auto trading bot 
+implement a payment system
+RUST TO JS : NEON
+webassembly wasm
+
+
+
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+Implementing Multi party ECDSA - Protocol : 
+
+curl https://sh.rustup.rs -sSf | sh  (install rust and cargo To get started you need Cargo's bin directory ($HOME/.cargo/bin) in your PATH environment variable. Next time you log in this will be done automatically. To configure your current shell run source $HOME/.cargo/env)
+cargo run --release
+rustup override set nightly   ==to install the nightly chain to compile nightly build
+rustup show   ==to check the active chains 
+cd gotham-city-master/gotham-server/
+rustup component add rust-src
+rustup component add rust-docs
+rustup override set stable
+rustup update
+cargo build
+cargo run --release
+rug = "1.4.0" in toml file
+npm install --global neon-cli
+neon new thread-count  //create new neon project
+The front-end of a Neon package is a pure JavaScript module (lib/index.js, by default), and the back-end is a native library implemented as a Rust crate. The Rust crate lives in the native/ subdirectory of the project
+
+neon build --release  The build process generates a handful of files that you don't need to work with directly:   native/index.node: the native module itself, which is loaded by lib/index.js.
+                      native/target and native/artifacts.json: cached build results, which makes rebuilds faster.
+                      An easy way to clean up build artifacts is to run:    neon clean
+
+
+Once we've built the project, we can try running it:
+node
+> require('.')
+hello node
+{}
+
+
+
+
+
+
+
+
+to update rustup nightly rls might miss in the nightly therefore u must emit a special command saying to 
+update at a prcise date of release of the nightly like this 
+
+when u have issues like lgmp not found then do this 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  517  brew help
+  518  brew install gmp
+
+
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+
+

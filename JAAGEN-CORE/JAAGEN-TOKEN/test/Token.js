@@ -13,8 +13,11 @@ describe("Token", () => {
     token = await Token.deploy("Jaag Exchange", "JAAG", "1000000");
     accounts = await ethers.getSigners();
     deployer = accounts[0];
+    console.log(deployer.address);
     receiver = accounts[1];
+    console.log(receiver.address);
     exchange = accounts[2];
+    console.log(exchange.address);
   });
 
   describe("Deployment", () => {
