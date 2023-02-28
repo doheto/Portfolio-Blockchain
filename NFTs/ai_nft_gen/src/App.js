@@ -61,6 +61,7 @@ function App() {
 
     // Upload image to IPFS (NFT.Storage)
     const url = await uploadImage(imageData);
+    console.log(url);
 
     // Mint NFT: signing transaction, creating NFT on chain, paying the dev
     await mintImage(url);
@@ -133,6 +134,7 @@ function App() {
       .connect(signer)
       .mint(tokenURI, { value: ethers.utils.parseUnits("0.1", "ether") });
     await transaction.wait();
+    console.dir(transaction);
   };
 
   return (
