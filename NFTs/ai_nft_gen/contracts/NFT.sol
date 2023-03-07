@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
-
+pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -20,7 +19,7 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    address public owner;
+    // address public owner;
     uint256 public cost;
     using Strings for uint256;
     string baseURI;
@@ -40,7 +39,7 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
         string memory _initBaseURI,
         string memory _initNotRevealedUri
     ) ERC721(_name, _symbol) {
-        owner = msg.sender;
+        // owner = msg.sender;
         cost = _cost;
         maxSupply = _maxSupply;
         setBaseURI(_initBaseURI);
@@ -66,12 +65,12 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
         for (uint256 i = 1; i <= _mintAmount; i++) {
             _safeMint(msg.sender, supply + i);
         }
-        _setTokenURI(newItemId, tokenURI);
+        _setTokenURI(supply, tokenURII);
     }
 
-    function totalSupply() public view returns (uint256) {
-        return _tokenIds.current();
-    }
+    // function totalSupply() public view returns (uint256) {
+    //     return _tokenIds.current();
+    // }
 
     function walletOfOwner(address _owner)
         public
@@ -90,7 +89,7 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
         public
         view
         virtual
-        override
+        override(ERC721, ERC721URIStorage)
         returns (string memory)
     {
         require(
@@ -152,5 +151,27 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
             value: address(this).balance
         }("");
         require(success);
+    }
+
+    // The following functions are overrides required by Solidity.
+
+    function _beforeTokenTransfer(address from, address to, uint256 tokenId, uint256 batchSize)
+        internal
+        override(ERC721, ERC721Enumerable)
+    {
+        super._beforeTokenTransfer(from, to, tokenId, batchSize);
+    }
+
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage) {
+        super._burn(tokenId);
+    }
+
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        override(ERC721, ERC721Enumerable)
+        returns (bool)
+    {
+        return super.supportsInterface(interfaceId);
     }
 }

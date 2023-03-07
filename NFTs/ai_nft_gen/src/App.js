@@ -27,19 +27,48 @@ function App() {
   const [message, setMessage] = useState("");
   const [isWaiting, setIsWaiting] = useState(false);
 
+  const [supplyAvailable, setSupplyAvailable] = useState(0);
+  const [ownerOf, setOwnerOf] = useState([]);
+  const [explorerURL, setExplorerURL] = useState("https://etherscan.io");
+  const [openseaURL, setOpenseaURL] = useState("https://opensea.io");
+  const [isMinting, setIsMinting] = useState(false);
+  const [isError, setIsError] = useState(false);
+  const [currentTime, setCurrentTime] = useState(new Date().getTime());
+  const [revealTime, setRevealTime] = useState(0);
+  const [counter, setCounter] = useState(7);
+  const [isCycling, setIsCycling] = useState(false);
+
   //here we getting the web3 access point, the network and nft interface
   const loadBlockchainData = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    setProvider(provider);
+    try {
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      setProvider(provider);
 
-    const network = await provider.getNetwork();
+      const network = await provider.getNetwork();
 
-    const nft = new ethers.Contract(
-      config[network.chainId].nft.address,
-      NFT,
-      provider
-    );
-    setNFT(nft);
+      const nft = new ethers.Contract(
+        config[network.chainId].nft.address,
+        NFT,
+        provider
+      );
+      setNFT(nft);
+
+      const maxSupply = await nft.methods.maxSupply().call();
+      const totalSupply = await nft.methods.totalSupply().call();
+      setSupplyAvailable(maxSupply - totalSupply);
+
+      // if (account) {
+      //   const ownerOf = await nft.methods.walletOfOwner(_account).call();
+      //   setOwnerOf(ownerOf);
+      // } else {
+      //   setOwnerOf([]);
+      // }
+    } catch (error) {
+      setIsError(true);
+      setMessage(
+        "Contract not deployed to current network, please change network in MetaMask"
+      );
+    }
   };
 
   useEffect(() => {
