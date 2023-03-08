@@ -25,21 +25,68 @@ function App() {
   const [url, setURL] = useState(null);
 
   const [message, setMessage] = useState("");
+  const [message2, setMessage2] = useState("");
   const [isWaiting, setIsWaiting] = useState(false);
+
+  const [supplyAvailable, setSupplyAvailable] = useState(0);
+  const [ownerOf, setOwnerOf] = useState([]);
+  const [networkId, setNetworkId] = useState(null);
+  const [explorerURL, setExplorerURL] = useState("https://etherscan.io");
+  const [openseaURL, setOpenseaURL] = useState("https://opensea.io");
+  const [isMinting, setIsMinting] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   //here we getting the web3 access point, the network and nft interface
   const loadBlockchainData = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    setProvider(provider);
+    try {
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      setProvider(provider);
 
-    const network = await provider.getNetwork();
+      const network = await provider.getNetwork();
+      const networkId = network.chainId;
+      setNetworkId(networkId);
 
-    const nft = new ethers.Contract(
-      config[network.chainId].nft.address,
-      NFT,
-      provider
-    );
-    setNFT(nft);
+      if (networkId !== 5777) {
+        setExplorerURL(config.NETWORKS[networkId].explorerURL);
+        setOpenseaURL(config.NETWORKS[networkId].openseaURL);
+      }
+
+      window.ethereum.on("accountsChanged", function(accounts) {
+        console.log("reload");
+        setAccount(accounts[0]);
+        setMessage(null);
+      });
+
+      window.ethereum.on("chainChanged", chainId => {
+        // Handle the new chain.
+        // Correctly handling chain changes can be complicated.
+        // We recommend reloading the page unless you have good reason not to.
+        window.location.reload();
+      });
+
+      const nft = new ethers.Contract(
+        config[network.chainId].nft.address,
+        NFT,
+        provider
+      );
+      setNFT(nft);
+
+      const maxSupply = await nft.methods.maxSupply().call();
+      const totalSupply = await nft.methods.totalSupply().call();
+      setSupplyAvailable(maxSupply - totalSupply);
+
+      if (account) {
+        const ownerOf = await nft.methods.walletOfOwner(account).call();
+        setOwnerOf(ownerOf);
+      } else {
+        setOwnerOf([]);
+      }
+    } catch (error) {
+      setIsError(true);
+      setMessage(
+        "Contract not deployed to current network, please change network in MetaMask"
+      );
+    }
   };
 
   useEffect(() => {
@@ -61,6 +108,7 @@ function App() {
 
     // Upload image to IPFS (NFT.Storage)
     const url = await uploadImage(imageData);
+    console.log(url);
 
     // Mint NFT: signing transaction, creating NFT on chain, paying the dev
     await mintImage(url);
@@ -121,6 +169,7 @@ function App() {
     // Save the URL
     const url = `https://ipfs.io/ipfs/${ipnft}/metadata.json`;
     setURL(url);
+    console.log(url);
 
     return url;
   };
@@ -132,7 +181,20 @@ function App() {
     const transaction = await nft
       .connect(signer)
       .mint(tokenURI, { value: ethers.utils.parseUnits("0.1", "ether") });
+    // .on("confirmation", async () => {
+    //   const maxSupply = await nft.methods.maxSupply().call();
+    //   const totalSupply = await nft.methods.totalSupply().call();
+    //   setSupplyAvailable(maxSupply - totalSupply);
+
+    //   const ownerOf = await nft.methods.walletOfOwner(account).call();
+    //   setOwnerOf(ownerOf);
+    // })
+    // .on("error", error => {
+    //   window.alert(error);
+    //   setIsError(true);
+    // });
     await transaction.wait();
+    console.dir(transaction);
   };
 
   return (
@@ -163,6 +225,18 @@ function App() {
             <div className="image__placeholder">
               <Spinner animation="border" />
               <p>{message}</p>
+              <p>
+                <small>
+                  View your NFT on
+                  <a
+                    href={`${openseaURL}/assets/${nft._address}/${ownerOf[0]}`}
+                    target="_blank"
+                    style={{ display: "inline-block", marginLeft: "3px" }}
+                  >
+                    OpenSea
+                  </a>
+                </small>
+              </p>
             </div>
           ) : (
             <></>
