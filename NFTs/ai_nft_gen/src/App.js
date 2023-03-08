@@ -25,18 +25,16 @@ function App() {
   const [url, setURL] = useState(null);
 
   const [message, setMessage] = useState("");
+  const [message2, setMessage2] = useState("");
   const [isWaiting, setIsWaiting] = useState(false);
 
   const [supplyAvailable, setSupplyAvailable] = useState(0);
   const [ownerOf, setOwnerOf] = useState([]);
+  const [networkId, setNetworkId] = useState(null);
   const [explorerURL, setExplorerURL] = useState("https://etherscan.io");
   const [openseaURL, setOpenseaURL] = useState("https://opensea.io");
   const [isMinting, setIsMinting] = useState(false);
   const [isError, setIsError] = useState(false);
-  const [currentTime, setCurrentTime] = useState(new Date().getTime());
-  const [revealTime, setRevealTime] = useState(0);
-  const [counter, setCounter] = useState(7);
-  const [isCycling, setIsCycling] = useState(false);
 
   //here we getting the web3 access point, the network and nft interface
   const loadBlockchainData = async () => {
@@ -45,6 +43,26 @@ function App() {
       setProvider(provider);
 
       const network = await provider.getNetwork();
+      const networkId = network.chainId;
+      setNetworkId(networkId);
+
+      if (networkId !== 5777) {
+        setExplorerURL(config.NETWORKS[networkId].explorerURL);
+        setOpenseaURL(config.NETWORKS[networkId].openseaURL);
+      }
+
+      window.ethereum.on("accountsChanged", function(accounts) {
+        console.log("reload");
+        setAccount(accounts[0]);
+        setMessage(null);
+      });
+
+      window.ethereum.on("chainChanged", chainId => {
+        // Handle the new chain.
+        // Correctly handling chain changes can be complicated.
+        // We recommend reloading the page unless you have good reason not to.
+        window.location.reload();
+      });
 
       const nft = new ethers.Contract(
         config[network.chainId].nft.address,
@@ -57,12 +75,12 @@ function App() {
       const totalSupply = await nft.methods.totalSupply().call();
       setSupplyAvailable(maxSupply - totalSupply);
 
-      // if (account) {
-      //   const ownerOf = await nft.methods.walletOfOwner(_account).call();
-      //   setOwnerOf(ownerOf);
-      // } else {
-      //   setOwnerOf([]);
-      // }
+      if (account) {
+        const ownerOf = await nft.methods.walletOfOwner(account).call();
+        setOwnerOf(ownerOf);
+      } else {
+        setOwnerOf([]);
+      }
     } catch (error) {
       setIsError(true);
       setMessage(
@@ -151,6 +169,7 @@ function App() {
     // Save the URL
     const url = `https://ipfs.io/ipfs/${ipnft}/metadata.json`;
     setURL(url);
+    console.log(url);
 
     return url;
   };
@@ -162,6 +181,18 @@ function App() {
     const transaction = await nft
       .connect(signer)
       .mint(tokenURI, { value: ethers.utils.parseUnits("0.1", "ether") });
+    // .on("confirmation", async () => {
+    //   const maxSupply = await nft.methods.maxSupply().call();
+    //   const totalSupply = await nft.methods.totalSupply().call();
+    //   setSupplyAvailable(maxSupply - totalSupply);
+
+    //   const ownerOf = await nft.methods.walletOfOwner(account).call();
+    //   setOwnerOf(ownerOf);
+    // })
+    // .on("error", error => {
+    //   window.alert(error);
+    //   setIsError(true);
+    // });
     await transaction.wait();
     console.dir(transaction);
   };
@@ -194,6 +225,18 @@ function App() {
             <div className="image__placeholder">
               <Spinner animation="border" />
               <p>{message}</p>
+              <p>
+                <small>
+                  View your NFT on
+                  <a
+                    href={`${openseaURL}/assets/${nft._address}/${ownerOf[0]}`}
+                    target="_blank"
+                    style={{ display: "inline-block", marginLeft: "3px" }}
+                  >
+                    OpenSea
+                  </a>
+                </small>
+              </p>
             </div>
           ) : (
             <></>

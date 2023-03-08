@@ -1,7 +1,7 @@
 {
   "31337": {
     "nft": {
-      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+      "address": "0x338cCAE3d2fE90060b3f8158f5B5479E2EDfCa45"
     }
   },
   "11155111": {
@@ -11,7 +11,43 @@
   },
   "5": {
     "nft": {
-      "address": "0x9953b2afBDd4b077f02ef4DEa22461f474820a03"
+      "address": "0x77Ed2CEe1E06e98Ec66379A6D09E4148A2a576A0"
+    }
+  },
+  "PROJECT_NAME": "ainft",
+  "CID": "QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn",
+  "AMOUNT": 1000000,
+  "MIN": 1,
+  "NETWORKS": {
+    "1": {
+      "name": "Ethereum Mainnet",
+      "isTestnet": false,
+      "explorerURL": "https://etherscan.io",
+      "openseaURL": "https://opensea.io"
+    },
+    "5": {
+      "name": "Goerli Testnet",
+      "isTestnet": true,
+      "explorerURL": "https://goerli.etherscan.io",
+      "openseaURL": "https://testnets.opensea.io"
+    },
+    "80001": {
+      "name": "Mumbai Testnet",
+      "isTestnet": true,
+      "explorerURL": "https://mumbai.polygonscan.com",
+      "openseaURL": "https://testnets.opensea.io"
+    },
+    "137": {
+      "name": "Polygon Mainnet",
+      "isTestnet": false,
+      "explorerURL": "https://polygonscan.com",
+      "openseaURL": "https://opensea.io"
+    },
+    "5777": {
+      "name": "Localhost",
+      "isTestnet": true,
+      "explorerURL": null,
+      "openseaURL": null
     }
   }
 }

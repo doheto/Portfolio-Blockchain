@@ -51,21 +51,24 @@ contract NFT is ERC721URIStorage, ERC721Enumerable, Ownable {
         return baseURI;
     }
 
-    function mint(string memory tokenURII, uint256 _mintAmount) public payable {
+    function mintf(string memory tokenURI) public payable {//ori
+        require(msg.value >= cost);
+        _tokenIds.increment();
+
+        uint256 newItemId = _tokenIds.current();
+        _mint(msg.sender, newItemId);
+        _setTokenURI(newItemId, tokenURI);
+    }
+
+    function mint(string memory tokenURII) public payable {
         if (msg.sender != owner()) {
-            require(msg.value >= cost * _mintAmount);
+            require(msg.value >= cost );
         }
 
         uint256 supply = totalSupply();
-        require(!isPaused);
-        require(_mintAmount > 0);
-        require(_mintAmount <= maxMintAmount);
-        require(supply + _mintAmount <= maxSupply);
+        require(supply + 1 <= maxSupply);
 
-        for (uint256 i = 1; i <= _mintAmount; i++) {
-            _safeMint(msg.sender, supply + i);
-        }
-        _setTokenURI(supply, tokenURII);
+            _safeMint(msg.sender, supply + 1);
     }
 
     // function totalSupply() public view returns (uint256) {
